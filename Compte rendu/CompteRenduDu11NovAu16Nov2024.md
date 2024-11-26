@@ -1,13 +1,10 @@
-# Titre :  Premieres recherches sur le theme 
-Ceci sont les résultats de mes toutes premières recherches par rapport a ce sujet. Ensuite, après une Présentation a mon encadreur, on s'est convenu que je devait continuer et orienter mes recherches ayant la directive des 2 points suivants:
-1- Compréhension des concepts clés de ce travail (procédés éco-responsable liés à l’IA, Green IT, IT for Green, etc..) ;
+# Titre :  Premières recherches sur le thème ''Utilisation des procédés éco-responsable lie a L'IA, Green IT et IT for GREEN pour réduire l'emprunte carbone du numérique''
+1- Compréhension des concepts clés de ce travail  ;
 2- Identification des leviers de Green IT et de l’IT for Green (analyse des technologies, méthodologies, des limites actuelles, des bonnes pratiques dans ces domaines).
-
 ## Ordre du jour
-1. EJ
-2. GHH
-3. HHHH
-
+1. Faire la mise au point sur la Comprehension et clarification des mots clés (procédés éco-responsable liés à l’IA, Green IT, IT for Green, etc..)
+2. Faire la mise au point sur l'dentification des leviers de Green IT et de l’IT for Green
+3. Faire la mise au point sur l'analyse des technologies, méthodologies, des limites actuelles, des bonnes pratiques dans ces domaines.
 ## Approches 
 ### Atouts 
 ### Limites
@@ -20,6 +17,7 @@ Ceci sont les résultats de mes toutes premières recherches par rapport a ce su
 
 ## Travail de la semaine prochaine
 Il est demandé de faire :
-1. ghj
-2. hjj
-3. ghh
+1. Ajouter le coté éthique
+2. Faire la Revue de la litterature  
+3. Revoir la Revue de la litterature et tout en insistant sur le coté implementation (Projet)
+
