@@ -58,14 +58,29 @@ Modélisation pour simuler différents scénarios et évaluer l'efficacité des 
 ### Limites
 1. Nous rencontrons une problématique majeure : l'évaluation de la fiabilité des données ou des informations fournies par les entreprises et les particuliers concernant le taux de pollution lié à l'utilisation du numérique.
 2. Comment garantir la vérifiabilité et la fiabilité de ces informations ? Cette question est cruciale pour notre projet, car elle influencera directement la prise de décision.
-
+3. Évaluation de la fiabilité des données
+Proposition de solutions :
+4. Méthodologie rigoureuse pour la collecte et l'analyse des données (protocole de recherche clair, critères de sélection des sources, etc.).
+Utilisation d'outils d'évaluation de la qualité des données (ex : vérification croisée des informations, analyse de la méthodologie utilisée par les sources, etc.).
+5. Collaboration avec des experts en sciences de l'environnement et en statistiques.
+Garantie de la vérifiabilité et de la fiabilité
+6. Proposition de solutions :
+Transparence sur les méthodes utilisées et les sources de données.
+Publication des résultats dans des revues scientifiques à comité de lecture.
+Mise à disposition des données (si possible) pour permettre leur réutilisation et leur vérification par d'autres chercheurs.
 ## Synthèse
 1. Récapitulatif des principaux enjeux liés à l'utilisation des procédés éco-responsables dans le domaine du numérique.
 2. Présentation des objectifs spécifiques de la recherche.
 3. Synthèse des méthodes qui seront utilisées pour mener à bien cette étude.
 
 ## Idée future de cas applicatif (Perspective)
-
+#### Développement d'un outil permettant d'évaluer l'empreinte carbone d'une application informatique.
+#### Conception d'un framework pour faciliter l'éco-conception des logiciels.
+#### Mise en place d'un programme de formation à destination des développeurs pour les sensibiliser aux enjeux du Green IT.
+Suggestions supplémentaires :
+#### Étudier les initiatives existantes en matière de Green IT pour s'inspirer des bonnes pratiques.
+#### Collaborer avec des entreprises du secteur numérique pour mener des projets pilotes.
+#### Participer à des événements (conférences, workshops) pour échanger avec d'autres chercheurs et professionnels du domaine.
 ## Travail de la semaine prochaine
 # Il est demandé de faire :
 1. Bien illustrer les References
