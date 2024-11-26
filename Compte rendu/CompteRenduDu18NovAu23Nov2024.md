@@ -14,5 +14,8 @@
 ## Idée future de cas applicatif (Perspective)
 
 ## Travail de la semaine prochaine
-Il est demandé de faire :
+# Il est demandé de faire :
+1. Bien illustrer les References
+2.  Revoir la Revue de la littérature tout en insistant sur le coté implémentation (Projet)
+
 
