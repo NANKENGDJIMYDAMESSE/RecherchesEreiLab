@@ -20,6 +20,7 @@
 ## Travail de la semaine prochaine
 Il est demandé de faire :
 1. Penser le coté éthique
-2. Faire la Revue de la littérature  
-3. Revoir la Revue de la littérature et tout en insistant sur le coté implémentation (Projet)
+2. Bien illustrer les References 
+3. Faire la Revue de la littérature  
+4. Revoir la Revue de la littérature et tout en insistant sur le coté implémentation (Projet)
 
