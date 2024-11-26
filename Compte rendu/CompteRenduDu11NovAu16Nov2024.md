@@ -15,7 +15,8 @@
 1. Travail acceptee sur l'ensemble sous reserve des améliorations
 2. Aborder avec beaucoup de précision la methodologie de recherche tout en essayant de garder  à  l'esprit qu'on est informaticien avant de se positionner sur un enjeux que ce theme dégage
 ## Idée future de cas applicatif (Perspective)
-1. menner un projet de publications d'articles bien elaboré sur ce theme
+1. menner un projet de publications d'articles bien elaboré sur ce theme;
+2. Faire une implémentation avec des données réelle pour menner à bien ce sujet de recherche.
 ## Travail de la semaine prochaine
 Il est demandé de faire :
 1. Penser le coté éthique
