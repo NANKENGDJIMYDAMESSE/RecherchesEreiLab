@@ -4,7 +4,7 @@
 1. Présentation du travail portant sur la premiere sur une première revue de littérature
 2. Choix du thème sur lequel on va se concentrer en tant qu'informaticien 
 ## Approches 
-# Évaluation de la fiabilité des données
+#### Évaluation de la fiabilité des données
 Méthodologie rigoureuse
 Définition claire des critères de qualité : Pertinence, précision, exhaustivité, objectivité, temporalité, accessibilité.
 Protocole de collecte de données précisant les sources (bases de données, enquêtes, rapports), les méthodes d'extraction et de nettoyage.
@@ -16,7 +16,7 @@ Utilisation de logiciels spécialisés dans l'évaluation de la qualité des don
 Collaboration avec des experts
 Implication de spécialistes en sciences de l'environnement, en statistiques et en informatique pour garantir la robustesse de l'analyse.
 Création de réseaux avec d'autres chercheurs travaillant sur des thématiques similaires.
-# Garantie de la vérifiabilité et de la fiabilité
+#### Garantie de la vérifiabilité et de la fiabilité
 Transparence méthodologique
 Publication détaillée des méthodes utilisées, des choix effectués et des limites de l'étude.
 Mise à disposition des données (si possible) dans un format ouvert et accessible.
@@ -25,19 +25,19 @@ Soumission des résultats à des revues scientifiques à comité de lecture pour
 Reproductibilité
 Fourniture d'un code permettant de reproduire les analyses et les résultats.
 Documentation détaillée de l'environnement de travail et des outils utilisés.
-# Choix des indicateurs
+#### Choix des indicateurs
 Définition d'indicateurs pertinents pour mesurer l'empreinte carbone du numérique :
 Consommation énergétique des équipements (serveurs, réseaux, terminaux).
 Émissions de gaz à effet de serre liées à la fabrication, au transport et à l'élimination des équipements.
 Impact environnemental des matériaux utilisés.
 Utilisation d'indicateurs normalisés pour faciliter les comparaisons et les analyses.
-# Éco-conception des systèmes d'information
+#### Éco-conception des systèmes d'information
 Intégration de critères environnementaux dès la conception des systèmes :
 Choix de technologies à faible impact énergétique.
 Optimisation des algorithmes pour réduire la consommation de ressources.
 Réutilisation et recyclage des équipements en fin de vie.
 Développement de logiciels open-source pour favoriser la collaboration et la diffusion des bonnes pratiques.
-# Sensibilisation et formation
+#### Sensibilisation et formation
 Diffusion des connaissances auprès des acteurs du numérique :
 Organisation de formations pour sensibiliser les développeurs, les administrateurs et les utilisateurs aux enjeux environnementaux.
 Publication d'articles et de guides pratiques.
@@ -47,7 +47,7 @@ Mise en place de partenariats avec des entreprises pour mener des projets de rec
 Accompagnement des entreprises dans la mise en œuvre de démarches de réduction de leur empreinte carbone numérique.
 En complément, vous pouvez envisager d'explorer les approches suivantes :
 
-Analyse de cycle de vie (ACV) pour évaluer l'impact environnemental global d'un produit ou d'un service numérique.
+#### Analyse de cycle de vie (ACV) pour évaluer l'impact environnemental global d'un produit ou d'un service numérique.
 Modélisation pour simuler différents scénarios et évaluer l'efficacité des mesures mises en œuvre.
 Étude de cas pour illustrer les bonnes pratiques et les difficultés rencontrées dans la mise en œuvre de projets de Green IT.
  
