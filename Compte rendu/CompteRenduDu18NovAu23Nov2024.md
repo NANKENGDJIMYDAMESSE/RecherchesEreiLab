@@ -85,7 +85,7 @@ Suggestions supplémentaires :
 # Il est demandé de faire :
 1. Bien illustrer les References
 2.  Revoir la Revue de la littérature tout en insistant sur le coté implémentation (Projet) en association avec l'aspet éthique du thème
-# Liens des Recherches precedentes :
+# Liens des Recherches précédentes :
 1. https://www.ins2i.cnrs.fr/fr/loptimisation-au-coeur-des-defis-des-sciences-informatiques
 2. https://www.intelligence-artificielle-school.com/actualite/bilan-carbone-de-l-intelligence-artificielle-analyse-et-axes-d-amelioration/
 3. https://www.allaboutai.com/fr-fr/glossaire-ai/efficacite-algorithmique/
