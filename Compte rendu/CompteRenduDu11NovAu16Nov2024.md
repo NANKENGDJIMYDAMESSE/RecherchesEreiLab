@@ -1,6 +1,6 @@
 # Titre :  Premières recherches sur le thème ''Utilisation des procédés éco-responsable lie  à L'IA, Green IT et IT for GREEN pour réduire l'emprunte carbone du numérique''
-1- Compréhension des concepts clés de ce travail  ;
-2- Identification des leviers de Green IT et de l’IT for Green (analyse des technologies, méthodologies, des limites actuelles, des bonnes pratiques dans ces domaines).
+1. Compréhension des concepts clés de ce travail  ;
+2. Identification des leviers de Green IT et de l’IT for Green (analyse des technologies, méthodologies, des limites actuelles, des bonnes pratiques dans ces domaines).
 ## Ordre du jour
 1. Faire la mise au point sur la Comprehension et clarification des mots clés (procédés éco-responsable liés à l’IA, Green IT, IT for Green, etc..)
 2. Faire la mise au point sur l'dentification des leviers de Green IT et de l’IT for Green
