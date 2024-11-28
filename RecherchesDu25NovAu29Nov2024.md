@@ -40,6 +40,23 @@ LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. nature, 521(7553), 43
 Kingma, D. P., & Ba, J. (2014). Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980.
 ## 6. Évaluation de l'efficacité énergétique
 ##### Métriques d'évaluation : Définir des métriques adaptées pour évaluer l'efficacité énergétique des algorithmes, telles que la consommation énergétique par exemple traité ou la précision par watt.
+### Les métriques d'évaluation de l'efficacité énergétique sont essentielles pour mesurer et améliorer la performance énergétique dans divers contextes, tels que les bâtiments, les industries, et les infrastructures urbaines. Voici quelques-unes des principales métriques et méthodes utilisées, souvent en lien avec des algorithmes avancés :
+
+###### Intensité énergétique : Cette métrique mesure la quantité d'énergie utilisée par unité de production ou de surface. Elle est souvent utilisée pour évaluer l'efficacité énergétique dans les bâtiments et les industries1.
+
+###### Indices d'efficacité énergétique : Ces indices permettent de suivre les tendances de l'efficacité énergétique en prenant en compte divers facteurs explicatifs, comme les changements structurels dans l'économie2.
+
+###### Analyse de la décomposition : Cette méthode décompose les variations de la consommation d'énergie en différents facteurs, tels que l'activité économique, les économies d'énergie, et d'autres influences2.
+
+###### Algorithmes d'apprentissage automatique : Des technologies comme BrainBox AI utilisent des algorithmes d'apprentissage automatique pour optimiser la consommation d'énergie des bâtiments. Ces algorithmes analysent des données en temps réel pour identifier des modèles, des inefficacités et des opportunités d'amélioration3.
+
+###### Évaluation des effets de structure : Cette méthode analyse comment les changements dans la structure économique affectent l'intensité énergétique, permettant une meilleure compréhension des tendances énergétiques2.
+
+###### Ces méthodes et algorithmes permettent non seulement de mesurer l'efficacité énergétique, mais aussi de proposer des améliorations et des stratégies pour réduire la consommation d'énergie et les émissions de gaz à effet de serre.
+
+##### Sources 
+ISO 17742:2015 2: ISO 50049:2020 3: BrainBox AI
+
 ##### Outils de mesure : Utiliser des outils de profilage énergétique pour mesurer la consommation des différents composants matériels et logiciels.
 ##### Perspectives et défis futurs
 Co-conception matériel-logiciel : Développer des architectures matérielles et des algorithmes étroitement couplés pour optimiser l'efficacité énergétique.
