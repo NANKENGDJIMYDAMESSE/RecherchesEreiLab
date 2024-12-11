@@ -13,12 +13,13 @@
 
 # Travail de la semaine prochaine
 ### Il est demandé de travailler sur :
-1-Optimisation des processus 
-2-Optimisation des Algorithmes 
-3-Optimisation des données
+* Optimisation des processus
+* Optimisation des Algorithmes
+* Optimisation des données
 ##### Il est aussi demandé de se concentrer sur L'optimisation des processus :
-1-Cas d’applications et classifications dans les secteurs métier
-2-Presenter les contextes de recommandations de ce dernier et ses differentes limites 
+* Cas d’applications et classifications dans les secteurs métier
+* Presenter les contextes de recommandations de ce dernier et ses differentes limites 
+
 
 
 
