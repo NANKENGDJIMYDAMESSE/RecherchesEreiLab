@@ -46,12 +46,12 @@ En explorant les applications et les limites de l'optimisation des processus dan
 4- Secteur du commerce de détail
 5-Autres secteurs
 # Études de cas internationales
-1- Optimisation des processus en Allemagne
-2- Optimisation des processus aux États-Unis
-3- Optimisation des processus au Japon
-4- Optimisation des processus en Chine
-5- Optimisation des processus en Inde
-6- Autres exemples internationaux
+1- Optimisation des processus en Allemagne;
+2- Optimisation des processus aux États-Unis;
+3- Optimisation des processus au Japon;
+4- Optimisation des processus en Chine;
+5- Optimisation des processus en Inde;
+6- Autres exemples internationaux.
 # Le cas de la France
 1- Contexte économique et industriel
 2- Politiques et initiatives nationales
