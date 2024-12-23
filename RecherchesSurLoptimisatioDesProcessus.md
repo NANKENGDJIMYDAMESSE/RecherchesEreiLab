@@ -284,11 +284,25 @@ En conclusion, l'intégration de l'IT for Green et du Green IT est un domaine de
 Résumé des principales conclusions
 Contributions de la Recherche
 Perspectives d'avenir
-
-
-
-
-
+# Liens de Recherche
+## Livres
+Livres généraux sur l'optimisation des processus :
+Le Lean Manufacturing de James P. Womack et Daniel T. Jones : Un ouvrage de référence sur les méthodes de production élancées.
+Six Sigma : Plusieurs ouvrages existent sur cette méthodologie d'amélioration continue.
+Business Process Management : Des ouvrages plus techniques expliquent les concepts et outils de gestion des processus d'affaires.
+Livres sur l'IT for Green et le Green IT :
+Green IT : Designing and Using Technology for the Environment de Timothy C. Lethbridge et Robert D. Austin : Un ouvrage complet sur les aspects techniques et environnementaux de l'informatique.
+Livres blancs de grandes entreprises technologiques : Les entreprises comme IBM, Microsoft et Google publient régulièrement des livres blancs sur leurs initiatives en matière de durabilité et de technologie.
+Livres sur la transition écologique :
+Drawdown : The Most Comprehensive Plan Ever Proposed to Reverse Global Warming de Paul Hawken : Un ouvrage qui présente des solutions concrètes pour lutter contre le changement climatique.
+Cradle to Cradle : Remaking the Way We Make Things de William McDonough et Michael Braungart : Un ouvrage de référence sur l'écoconception et l'économie circulaire.
+## Pages web et ressources en ligne
+Sites d'organisations internationales :
+ONU Environnement : Des rapports et des études sur les enjeux environnementaux et les solutions technologiques.
+OCDE : Des analyses et des recommandations sur les politiques publiques en matière d'innovation et de développement durable.
+Sites de grandes entreprises :
+Sites web des entreprises : Les sites web de nombreuses entreprises, notamment dans les secteurs de la technologie et de l'industrie, proposent des études de cas et des informations sur leurs initiatives en matière de durabilité.
+Plateformes de publication scientifique :
 
 
 
