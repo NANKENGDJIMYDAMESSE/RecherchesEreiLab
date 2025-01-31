@@ -17,7 +17,7 @@
 ###	Les recommandations personnalisées: 
   -	Fonctionnement des systèmes de recommandation (filtrage collaboratif, filtrage basé sur le contenu)
   -	Applications dans l'e-commerce, les plateformes de streaming, etc.
-  -	
+    
 ###	La vision par ordinateur: 
   - Détection d'objets, de visages, de scènes
   - Applications dans la sécurité, la surveillance, l'industrie
@@ -31,21 +31,21 @@
   - La biais algorithmique: Les biais présents dans les données peuvent se retrouver dans les modèles.
   -	La confidentialité des données: Protection des données personnelles.
   - L'explicabilité des modèles: Difficulté à comprendre les décisions prises par certains modèles complexes.
-  - 
+    
 ### Le futur du machine learning
   - Les tendances actuelles: L'apprentissage par renforcement profond, l'apprentissage fédéré, etc.
   -	Les applications émergentes: La santé, l'environnement, les villes intelligentes.
-  -	
+    
 ## Conclusion
   - Récapitulatif des principaux points abordés.
   - Encouragement à approfondir le sujet.
-  - 
+    
 ### Conseils supplémentaires:
   -	Utilisez des exemples concrets et des analogies pour rendre vos explications plus claires et plus accessibles.
   - Illustrez vos propos avec des images ou des vidéos si possible.
   - Adaptez votre discours à votre audience: Si vous vous adressez à des non-spécialistes, évitez le jargon technique.
   - Mettez l'accent sur l'impact du machine learning sur la société.
-  - 
+    
 > Pour chaque cas d'utilisation, vous pouvez approfondir en abordant les points suivants:
 >> Les algorithmes clés utilisés (réseaux de neurones, arbres de décision, etc.)
 >>	Les défis spécifiques rencontrés dans chaque domaine
