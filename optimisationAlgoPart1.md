@@ -40,13 +40,7 @@
   - Récapitulatif des principaux points abordés.
   - Encouragement à approfondir le sujet.
     
-### Conseils supplémentaires:
-  -	Utilisez des exemples concrets et des analogies pour rendre vos explications plus claires et plus accessibles.
-  - Illustrez vos propos avec des images ou des vidéos si possible.
-  - Adaptez votre discours à votre audience: Si vous vous adressez à des non-spécialistes, évitez le jargon technique.
-  - Mettez l'accent sur l'impact du machine learning sur la société.
-    
-> Pour chaque cas d'utilisation, vous pouvez approfondir en abordant les points suivants:
+
 >> Les algorithmes clés utilisés (réseaux de neurones, arbres de décision, etc.)
 >>	Les défis spécifiques rencontrés dans chaque domaine
 >>	Les dernières avancées dans le domaine
