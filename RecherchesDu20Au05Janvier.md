@@ -79,8 +79,38 @@ Stratégies de Détection et de Correction
 Audits des modèles : vérification régulière des biais dans les prédictions.
 
 # Techniques d'atténuation : 
-- rééquilibrage des données,
-- utilisation de modèles explicables.
+
+## 1. SMOTE (Synthetic Minority Over-sampling Technique) 
+- est une technique utilisée pour traiter le problème de déséquilibre entre les classes dans les jeux de données. Ce déséquilibre survient lorsque certaines classes, souvent la classe minoritaire, sont sous-représentées par rapport à d'autres. Cela peut poser un problème lors de l'entraînement de modèles de machine learning, car le modèle pourrait avoir une tendance à privilégier la classe majoritaire.
+
+- SMOTE fonctionne en générant des exemples synthétiques pour la classe minoritaire plutôt que de simplement sous-échantillonner la classe majoritaire ou d’ajouter des copies exactes d'exemples de la classe minoritaire. Voici comment ça marche :
+- Identification des voisins les plus proches : Pour chaque exemple de la classe minoritaire, SMOTE cherche les voisins les plus proches dans l'espace des caractéristiques.
+- Création de nouveaux exemples : Ensuite, de nouveaux exemples sont générés en interpolant entre l'exemple original et ses voisins. Ces exemples sont des points synthétiques créés dans l'espace des caractéristiques, et non des copies exactes des points existants.
+- Cela permet d'augmenter la diversité des données de la classe minoritaire tout en augmentant sa taille, ce qui aide à améliorer la performance du modèle, notamment dans les cas où les modèles tendent à être biaisés vers la classe majoritaire.
+- SMOTE est souvent utilisé dans des applications comme la détection de fraudes, la prédiction de maladies rares, ou dans toute situation où une classe minoritaire est d'intérêt mais difficile à détecter en raison du déséquilibre des données.
+## 2. Under-sampling (Sous-échantillonnage)
+Cette méthode consiste à réduire la taille de la classe majoritaire en supprimant certains exemples. L'objectif est d'égaliser la taille des classes. Bien que cela puisse entraîner une perte d'information, cela peut être utile dans certains cas où l'on souhaite équilibrer rapidement les classes sans ajouter de données supplémentaires.
+## 3. Over-sampling (Sur-échantillonnage)
+Contrairement au sous-échantillonnage, l'over-sampling consiste à augmenter la taille de la classe minoritaire, souvent en dupliquant les exemples existants. Cependant, cela peut conduire à un sur-apprentissage (overfitting) si les mêmes exemples sont trop reproduits.
+## 4. SMOTE + Tomek Links
+Cette approche combine SMOTE avec une technique appelée Tomek Links. Après avoir généré de nouveaux exemples synthétiques avec SMOTE, Tomek Links est utilisé pour supprimer les points de données ambigus, qui sont des exemples d'une classe qui sont proches des exemples de l'autre classe, ce qui peut améliorer la séparation des classes et la qualité du modèle.
+## 5. Borderline-SMOTE
+Il s'agit d'une variante de SMOTE qui génère des exemples synthétiques uniquement autour des exemples de la classe minoritaire situés près de la frontière de décision, c'est-à-dire ceux qui sont les plus difficiles à classer correctement. Cela permet de mieux "renforcer" les zones critiques de l'espace des caractéristiques.
+## 6. Cluster-Based Over-sampling
+Dans cette méthode, les exemples de la classe minoritaire sont d'abord regroupés en clusters (par exemple, à l'aide de l'algorithme K-means), puis des exemples synthétiques sont générés en utilisant les centres des clusters. Cela peut être plus efficace que de simplement augmenter le nombre d'exemples en dupliquant des points existants.
+## 7. Adaptive Synthetic Sampling (ADASYN)
+ADASYN est une méthode similaire à SMOTE, mais elle se concentre davantage sur la génération d'exemples synthétiques pour les régions de l'espace de données où la classe minoritaire est la plus mal classée par le modèle. Ainsi, elle ajuste dynamiquement le nombre d'exemples à générer en fonction de la difficulté des points.
+## 8. EasyEnsemble et BalanceCascade
+Ces méthodes se basent sur l'idée de créer plusieurs sous-ensembles de données équilibrés, puis d'entraîner des modèles sur chacun de ces sous-ensembles. L'idée est de renforcer la capacité du modèle à bien classifier la classe minoritaire en combinant les résultats de plusieurs modèles.
+## 9. Cost-sensitive Learning
+Plutôt que de manipuler les données, cette méthode ajuste les algorithmes d'apprentissage pour qu'ils prennent en compte le coût d'erreur pour chaque classe. Cela peut être réalisé en attribuant un coût plus élevé aux erreurs de classification des exemples de la classe minoritaire.
+## 10. Ensemble Learning
+Des techniques comme Random Forest ou Gradient Boosting peuvent être adaptées pour tenir compte du déséquilibre des classes. Des poids peuvent être attribués aux classes de manière à ce que les erreurs sur la classe minoritaire soient pénalisées davantage. Par exemple, dans Random Forest, il est possible d'ajuster les poids des classes dans le calcul des arbres de décision.
+## 11. Focal Loss
+Cette méthode est couramment utilisée dans les réseaux de neurones pour les problèmes de déséquilibre des classes, en particulier dans les tâches de détection d'objets. Focal Loss modifie la fonction de perte classique pour accorder plus d'importance aux exemples difficiles (qui sont souvent ceux de la classe minoritaire) et moins d'importance aux exemples faciles.
+## 12. Weighting the Classes
+En ajustant les poids des classes dans la fonction de perte (par exemple, en accordant un poids plus élevé à la classe minoritaire), il est possible de compenser le déséquilibre. Cela peut être fait dans de nombreux algorithmes de machine learning, tels que les régressions logistiques, les arbres de décision, et les réseaux de neurones.
+Ces techniques peuvent être utilisées seules ou en combinaison pour obtenir de meilleurs résultats, selon le type de modèle, la nature du déséquilibre des classes et la spécificité du problème. Chaque approche a ses avantages et inconvénients, il est donc souvent utile de tester différentes méthodes pour déterminer celle qui fonctionne le mieux pour votre cas particulier.
 
 # 6. Perspectives et Futures Recherches
 
