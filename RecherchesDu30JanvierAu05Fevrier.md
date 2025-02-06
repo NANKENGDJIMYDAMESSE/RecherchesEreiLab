@@ -228,4 +228,10 @@ Malgré les nombreuses techniques d'optimisation et de réduction des biais, il 
 
 Ce travail présente une première exploration théorique de l'optimisation des données et des algorithmes dans le contexte des biais. L'étape suivante consistera à valider ces concepts par des applications concrètes sur des jeux de données spécifiques.
 
+# Recommandations et travail futur 
 
+- Description du travailk pratique
+- Revoir la description des approches heurististique et .....
+- comparaison des approches (contextes, approches,....)
+- Visualisations
+- Perspectives et conclusions du tp
