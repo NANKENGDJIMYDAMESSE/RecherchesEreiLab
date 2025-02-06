@@ -8,7 +8,7 @@ L'optimisation des données consiste à appliquer des méthodes permettant de re
 -  Coût : Diminution des ressources nécessaires pour le stockage et le traitement.
 -  Sécurité : Meilleure gestion des données pour éviter les fuites et intrusions.
 
-#### 2. Techniques et méthodes d’optimisation des données
+# 2. Techniques et méthodes d’optimisation des données
 ### 2.1. Optimisation de la qualité des données
 - Nettoyage des données : Suppression des valeurs aberrantes et des données redondantes.
 -  Standardisation : Uniformisation des formats de dates, devises, unités, etc.
@@ -42,7 +42,7 @@ Netflix optimise la transmission de vidéos en utilisant des algorithmes de stre
 ####  Exemple d'application :
 Dans la détection des fraudes bancaires, la réduction de dimension permet d'éliminer les variables inutiles et d'améliorer la précision des modèles prédictifs.
 
-#### 3. Réduction des biais dans les algorithmes grâce à l’optimisation des données
+# 3. Réduction des biais dans les algorithmes grâce à l’optimisation des données
 Les biais dans les modèles d’IA proviennent souvent d’une mauvaise qualité ou d’un déséquilibre dans les données.
 
 #### 3.1. Identification et correction des biais dans les données
@@ -61,7 +61,7 @@ Un modèle de recrutement automatisé entraîné sur des données historiques pe
 ####  Exemple d'application :
 Facebook utilise des algorithmes d’équité pour s'assurer que les publicités ne sont pas biaisées en fonction du genre ou de l’ethnicité.
 
-#### 4. Cas d’utilisation concrets
+# 4. Cas d’utilisation concrets
 #### Domaine	Application de l'optimisation des données
 - E-commerce	Amélioration des recommandations via la réduction de dimension (Amazon, Alibaba).
 - Santé	Diagnostic assisté par IA, traitement optimisé des dossiers médicaux (IBM Watson Health).
