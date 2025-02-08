@@ -54,10 +54,15 @@ Exploration de nouvelles techniques : Veille continue sur les dernières avancé
 
 Développement d'un outil de détection de biais : Conception d'un système permettant d'automatiser l'analyse et la correction des biais dans les jeux de données.
 
-# Idées futures
+# Idées futures et travail prochain
 
-Amélioration des algorithmes existants : Intégration de nouvelles métriques de correction de biais et optimisation des fonctions de coût.
+- Amélioration des algorithmes existants : Intégration de nouvelles métriques de correction de biais et optimisation des fonctions de coût.
 
-Cas applicatif concret : Implémentation d'un modèle optimisé sur un cas réel pour évaluer l'efficacité des techniques proposées.
+- Cas applicatif concret : Implémentation d'un modèle optimisé sur un cas réel pour évaluer l'efficacité des techniques proposées.
+- Description du travailk pratique
+- Revoir la description des approches heurististique et .....
+- comparaison des approches (contextes, approches,....)
+- Visualisations
+- Perspectives et conclusions du tp
 
 
