@@ -1,62 +1,42 @@
 # L’optimisation des données et des algorithmes constitue un domaine clé pour améliorer la performance des modèles tout en réduisant les biais. Cette dernière partie propose une synthèse des recommandations, des pistes d’amélioration et des perspectives pour des travaux futurs.
-# 1. Description du travail pratique
-## Objectif du travail pratique
-L’objectif du travail pratique est de mettre en application les concepts d’optimisation des données et d’algorithmes dans un cadre expérimental concret. Cela inclut :
-L’évaluation de différentes techniques d’optimisation des données (nettoyage, réduction de dimension, rééquilibrage des classes).
-L’application de méthodes d’optimisation d’algorithmes (réglage d’hyperparamètres, heuristiques, modèles adaptatifs).
-L’étude de l’impact de ces techniques sur les performances des modèles (précision, robustesse, biais).
-# Plan du travail pratique
-- Choix d’un jeu de données : Sélectionner un dataset contenant des biais potentiels (ex. : données de santé, finance, recrutement).
-- Pré-traitement des données :
-- Nettoyage des valeurs aberrantes.
-- Imputation des valeurs manquantes.
-- Normalisation et réduction de dimension.
-- Application de modèles avec et sans optimisation :
-- Comparaison de modèles non optimisés avec des versions améliorées par des techniques d’optimisation.
-- Évaluation des performances et des biais :
-- Utilisation de métriques standards (accuracy, F1-score, fairness metrics).
-- Analyse des biais restants après optimisation.
-- Visualisation des résultats :
-- Graphiques comparant les performances des modèles optimisés et non optimisés.
-# 2.Description des approches heuristiques et des méthodes d’optimisation
-Les approches heuristiques et les méthodes d’optimisation jouent un rôle central dans l'amélioration des algorithmes. Cette section vise à revoir ces concepts et proposer une comparaison plus approfondie.
 
-## 2.1. Approches heuristiques
-Les heuristiques sont des méthodes approximatives permettant de trouver des solutions acceptables en un temps raisonnable. Elles sont souvent utilisées lorsque les solutions exactes sont trop coûteuses en calcul.
-- Exemples d’heuristiques appliquées à l’optimisation des algorithmes :
-- Recuit simulé (Simulated Annealing) : Technique inspirée du refroidissement des métaux, utilisée pour explorer l’espace des solutions en évitant les minima locaux.
-- Algorithmes génétiques : Modélisation de l’évolution biologique pour optimiser des modèles complexes.
-- Recherche tabou : Stratégie basée sur l’exploration intelligente de l’espace des solutions en évitant les répétitions.
-Nature du problème: Les problèmes combinatoires consistent à trouver la meilleure solution parmi un ensemble fini (mais souvent immense) de possibilités. Ils sont caractérisés par un nombre astronomique de combinaisons possibles, ce qui rend l'exploration exhaustive irréalisable.
-### Exemples:
-Logistique: Optimisation des itinéraires de livraison, gestion des entrepôts, planification de la production, ordonnancement des tâches.
-Transport: Organisation des horaires de trains, gestion du trafic aérien, optimisation des flottes de véhicules, covoiturage.
-Pourquoi les heuristiques ? Les heuristiques sont des techniques de résolution de problèmes qui permettent de trouver rapidement des solutions "raisonnables", même si elles ne sont pas garanties d'être optimales. Elles sont particulièrement utiles pour les problèmes combinatoires complexes où la recherche de la solution parfaite prendrait un temps prohibitif.
+
+# 1.Description des approches heuristiques et des méthodes d’optimisation
+Les approches heuristiques et les méthodes d’optimisation jouent un rôle central dans l'amélioration des algorithmes. Cette section vise à revoir ces concepts et proposer une comparaison plus approfondie.
+# 2. Approches heuristiques
+Les heuristiques sont des méthodes de résolution de problèmes qui permettent de trouver rapidement des solutions "raisonnables", même si elles ne sont pas garanties d'être optimales. Elles sont particulièrement utiles pour les problèmes complexes où la recherche de la solution parfaite prendrait un temps prohibitif.
+Nature du problème: Problèmes combinatoires, où il faut choisir la meilleure solution parmi un nombre astronomique de possibilités (ex: logistique, transport, planification).
 ### Exemples d'heuristiques:
-Algorithmes gloutons: Choisir la meilleure option à chaque étape, sans se soucier de l'impact à long terme.
-Algorithmes génétiques: S'inspirer de l'évolution naturelle pour améliorer itérativement une population de solutions.
+- Algorithmes gloutons: Choisir la meilleure option à chaque étape, sans se soucier de l'impact à long terme.
+Exemple: Un livreur doit livrer plusieurs colis. Un algorithme glouton choisirait à chaque étape le colis le plus proche à livrer, sans forcément optimiser l'itinéraire global.
+- Algorithmes génétiques: S'inspirer de l'évolution naturelle pour améliorer itérativement une population de solutions.
+Exemple: Optimisation de la conception d'une aile d'avion. L'algorithme génétique ferait évoluer une population de conceptions en sélectionnant les meilleures et en les combinant.
 Recuit simulé: Explorer l'espace de solutions en acceptant parfois des "mauvaises" solutions pour éviter de rester bloqué dans un optimum local.
+Exemple: Optimisation de l'agencement des composants électroniques sur une carte mère. Le recuit simulé accepterait parfois des agencements moins bons pour explorer d'autres options.
 Recherche tabou: Mémoriser les solutions déjà explorées pour éviter de les revisiter.
+Exemple: Un robot doit explorer un labyrinthe. La recherche tabou mémoriserait les chemins déjà empruntés pour éviter de tourner en rond.
 Algorithmes de colonies de fourmis: S'inspirer du comportement des fourmis pour trouver des chemins optimaux.
-# Optimisation de modèles classiques (ex : tuning d'algorithmes) → Optimisation par hyperparamètres
-Modèles classiques: Il s'agit de modèles d'apprentissage automatique "traditionnels" (par opposition aux réseaux de neurones profonds), tels que les machines à vecteurs de support (SVM), les arbres de décision, les forêts aléatoires, etc.
-Hyperparamètres: Ce sont des paramètres qui contrôlent le comportement d'un modèle d'apprentissage automatique et qui doivent être définis par l'utilisateur (par opposition aux paramètres du modèle qui sont appris automatiquement pendant l'entraînement).
-Exemples d'hyperparamètres:*
-SVM: Le type de noyau, le paramètre de régularisation C.
-Arbres de décision: La profondeur maximale de l'arbre, le nombre minimal d'échantillons pour diviser un nœud.
-Forêts aléatoires: Le nombre d'arbres, la profondeur maximale des arbres.
-Optimisation par hyperparamètres: Le "tuning" d'algorithmes consiste à trouver la combinaison d'hyperparamètres qui donne les meilleures performances pour un modèle donné. Il existe différentes techniques pour cela :
-Recherche manuelle: Essayer différentes combinaisons et évaluer les résultats.
-Recherche aléatoire: Sélectionner aléatoirement des combinaisons et les évaluer.
-Recherche par grille: Explorer systématiquement toutes les combinaisons dans une plage donnée.
-Optimisation bayésienne: Utiliser un modèle probabiliste pour guider la recherche.
-Algorithmes évolutionnaires: S'inspirer de l'évolution naturelle pour optimiser les hyperparamètres.
-## 3. Cas nécessitant une adaptation dynamique (ex : détection de fraudes, systèmes évolutifs) → Machine Learning
-Adaptation dynamique: Il s'agit de situations où les données ou les conditions changent au fil du temps, ce qui nécessite que le système s'adapte en conséquence.
-## Exemples:
+Exemple: Optimisation du réseau de distribution d'une entreprise. L'algorithme de colonies de fourmis simulerait le dépôt de phéromones par les fourmis pour trouver les meilleurs itinéraires.
+# 2. Optimisation de modèles classiques
+Ces méthodes suivent une approche plus formelle pour ajuster les modèles, en particulier les modèles d'apprentissage automatique "traditionnels" (par opposition aux réseaux de neurones profonds).
+
+Nature du problème: Optimisation de modèles avec un nombre limité de paramètres, souvent pour des tâches de classification ou de régression.
+
+Exemples de techniques:
+
+Optimisation des hyperparamètres: Trouver la meilleure combinaison de paramètres qui contrôlent le comportement du modèle (ex: profondeur maximale d'un arbre de décision, paramètre de régularisation d'une SVM).
+Techniques: Recherche manuelle, recherche aléatoire, recherche par grille, optimisation bayésienne.
+Optimisation des paramètres du modèle: Ajuster les paramètres internes du modèle (ex: poids d'un réseau de neurones) pour minimiser l'erreur.
+Techniques: Descente de gradient et ses variantes (SGD, Adam).
+# 3. Cas nécessitant une adaptation dynamique
+Il s'agit de situations où les données ou les conditions changent au fil du temps, ce qui nécessite que le système s'adapte en conséquence. L'apprentissage automatique est particulièrement adapté à ces cas.
+Nature du problème: Systèmes évolutifs, détection de changements, adaptation à de nouvelles situations.
+Exemples:
 Détection de fraudes: Les techniques de fraude évoluent constamment, il est donc essentiel que le système de détection puisse s'adapter aux nouvelles formes de fraude.
-Systèmes évolutifs: Les systèmes qui interagissent avec un environnement complexe et changeant (par exemple, les voitures autonomes, les robots) doivent être capables d'apprendre et de s'adapter à de nouvelles situations.
-Recommandation personnalisée: Les préférences des utilisateurs peuvent changer au fil du temps, il est donc important que le système de recommandation puisse s'adapter en conséquence.
+Systèmes de recommandation personnalisée: Les préférences des utilisateurs peuvent changer au fil du temps, il est donc important que le système de recommandation puisse s'adapter en conséquence.
+Voitures autonomes: Les voitures autonomes doivent être capables de s'adapter à des conditions de circulation changeantes et imprévues.
+Techniques: Apprentissage supervisé, apprentissage non supervisé, apprentissage par renforcement.
+
 # Machine Learning: L'apprentissage automatique est idéal pour ces cas car il permet à un système d'apprendre à partir des données et de s'améliorer au fil du temps, sans avoir besoin d'être explicitement programmé pour chaque situation.
 Types d'apprentissage automatique:*
 Apprentissage supervisé: Apprendre à partir de données étiquetées (par exemple, des exemples de transactions frauduleuses et non frauduleuses).
@@ -71,18 +51,10 @@ Cartes: Cartes géographiques, etc.
 Outils de visualisation: Il existe de nombreux outils de visualisation de données, tels que Matplotlib, Seaborn, Tableau, Power BI, etc.
 Analyse comparative et choix de la meilleure méthode
 Une analyse comparative des différentes approches (heuristiques, optimisation, machine learning) est essentielle pour choisir la meilleure méthode en fonction du contexte spécifique du problème. Il est important de prendre en compte les facteurs suivants :
-
 La nature du problème: Quel est le type de problème à résoudre ? S'agit-il d'un problème combinatoire, d'un problème d'optimisation, ou d'un problème d'adaptation dynamique ?
 Les caractéristiques des données: Quelles sont les caractéristiques des données disponibles ? Sont-elles étiquetées ou non étiquetées ? Sont-elles statiques ou évolutives ?
 Les contraintes de temps et de ressources: Quelles sont les contraintes de temps et de ressources disponibles ? Quel est le niveau de précision requis ?
 Les objectifs de l'analyse: Quels sont les objectifs de l'analyse ? Recherche-t-on une solution optimale ou une solution "suffisante" ?
-
-
-
-
-
-
-
 
 ## 2.2. Méthodes d’optimisation des algorithmes
 Contrairement aux heuristiques, ces méthodes suivent une approche plus formelle pour ajuster les modèles.
