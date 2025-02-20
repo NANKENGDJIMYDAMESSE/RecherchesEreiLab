@@ -177,8 +177,13 @@ Matplotlib: https://matplotlib.org/stable/index.html (Librairie de base pour les
 Seaborn: https://seaborn.pydata.org/ (Librairie pour des graphiques statistiques plus avancés)
 Plotly: https://plotly.com/python/ (Librairie pour des graphiques interactifs)
 
+# Recommandations
 
-
+- Constitution de l'hyperparametre 
+- Est ce que le biais plus petit est indice du meilleur resultat 
+- Dans quel conteste est il approprie d'avoir les hyperparametres ou les parametres
+- Inclure l'hyperparametre dans le TP1
+- 
 
 
 
