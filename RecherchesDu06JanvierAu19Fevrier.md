@@ -106,7 +106,18 @@ La réduction des biais ne garantit pas une équité totale des modèles.
 - Amélioration des techniques d’équité : Explorer des métriques comme Fairness Constraints ou Equalized Odds.
 - Exploration de modèles explicables : Développement d’algorithmes interprétables pour mieux comprendre les décisions prises par les modèles.
 
+# TRAVAUX PRATIQUE 
+# TP 1 : Comparaison des approches (Heuristiques, Optimisation classique, Machine Learning)
 
+- Chargement d’un dataset de sklearn.
+- Application des trois approches sur une même tâche.
+- Calcul de toutes les métriques possibles.
+- Visualisations des résultats.
+- Tableau comparatif final pour choisir la meilleure méthode.
+# TP 2 : Mise en évidence de la notion d’hyperparamètre
+- Expérimentation avec différents hyperparamètres.
+- Comparaison des performances en fonction du tuning des hyperparamètres.
+- Optimisation via GridSearchCV, RandomSearchCV et Bayesian Optimization.
 
 
 
