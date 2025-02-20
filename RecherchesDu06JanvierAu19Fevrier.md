@@ -37,24 +37,24 @@ Systèmes de recommandation personnalisée: Les préférences des utilisateurs p
 Voitures autonomes: Les voitures autonomes doivent être capables de s'adapter à des conditions de circulation changeantes et imprévues.
 Techniques: Apprentissage supervisé, apprentissage non supervisé, apprentissage par renforcement.
 
-# Machine Learning: L'apprentissage automatique est idéal pour ces cas car il permet à un système d'apprendre à partir des données et de s'améliorer au fil du temps, sans avoir besoin d'être explicitement programmé pour chaque situation.
-Types d'apprentissage automatique:*
-Apprentissage supervisé: Apprendre à partir de données étiquetées (par exemple, des exemples de transactions frauduleuses et non frauduleuses).
-Apprentissage non supervisé: Découvrir des motifs ou des structures dans des données non étiquetées (par exemple, segmenter les clients en groupes).
-Apprentissage par renforcement: Apprendre à prendre des décisions en interagissant avec un environnement (par exemple, entraîner un robot à marcher).
+### Machine Learning: L'apprentissage automatique est idéal pour ces cas car il permet à un système d'apprendre à partir des données et de s'améliorer au fil du temps, sans avoir besoin d'être explicitement programmé pour chaque situation.
+### Types d'apprentissage automatique:
+- Apprentissage supervisé: Apprendre à partir de données étiquetées (par exemple, des exemples de transactions frauduleuses et non frauduleuses).
+- Apprentissage non supervisé: Découvrir des motifs ou des structures dans des données non étiquetées (par exemple, segmenter les clients en groupes).
+- Apprentissage par renforcement: Apprendre à prendre des décisions en interagissant avec un environnement (par exemple, entraîner un robot à marcher).
 # Visualisations
 Importance des visualisations: Les visualisations de données sont essentielles pour comprendre les données, identifier les tendances et les anomalies, et communiquer les résultats de l'analyse.
-Types de visualisations:*
-Graphiques: Histogrammes, diagrammes de dispersion, courbes, etc.
-Tableaux: Tableaux de bord, rapports, etc.
-Cartes: Cartes géographiques, etc.
-Outils de visualisation: Il existe de nombreux outils de visualisation de données, tels que Matplotlib, Seaborn, Tableau, Power BI, etc.
-Analyse comparative et choix de la meilleure méthode
-Une analyse comparative des différentes approches (heuristiques, optimisation, machine learning) est essentielle pour choisir la meilleure méthode en fonction du contexte spécifique du problème. Il est important de prendre en compte les facteurs suivants :
+### Types de visualisations:
+- Graphiques: Histogrammes, diagrammes de dispersion, courbes, etc.
+- Tableaux: Tableaux de bord, rapports, etc.
+- Cartes: Cartes géographiques, etc.
+## Outils de visualisation: Il existe de nombreux outils de visualisation de données, tels que Matplotlib, Seaborn, Tableau, Power BI, etc.
+- Analyse comparative et choix de la meilleure méthode
+- Une analyse comparative des différentes approches (heuristiques, optimisation, machine learning) est essentielle pour choisir la meilleure méthode en fonction du contexte spécifique du problème. Il est important de prendre en compte les facteurs suivants :
 La nature du problème: Quel est le type de problème à résoudre ? S'agit-il d'un problème combinatoire, d'un problème d'optimisation, ou d'un problème d'adaptation dynamique ?
-Les caractéristiques des données: Quelles sont les caractéristiques des données disponibles ? Sont-elles étiquetées ou non étiquetées ? Sont-elles statiques ou évolutives ?
-Les contraintes de temps et de ressources: Quelles sont les contraintes de temps et de ressources disponibles ? Quel est le niveau de précision requis ?
-Les objectifs de l'analyse: Quels sont les objectifs de l'analyse ? Recherche-t-on une solution optimale ou une solution "suffisante" ?
+- Les caractéristiques des données: Quelles sont les caractéristiques des données disponibles ? Sont-elles étiquetées ou non étiquetées ? Sont-elles statiques ou évolutives ?
+- Les contraintes de temps et de ressources: Quelles sont les contraintes de temps et de ressources disponibles ? Quel est le niveau de précision requis ?
+- Les objectifs de l'analyse: Quels sont les objectifs de l'analyse ? Recherche-t-on une solution optimale ou une solution "suffisante" ?
 
 ## 2.2. Méthodes d’optimisation des algorithmes
 Contrairement aux heuristiques, ces méthodes suivent une approche plus formelle pour ajuster les modèles.
