@@ -33,6 +33,42 @@ Contrairement aux heuristiques, ces méthodes suivent une approche plus formelle
 - Grid Search : Exploration exhaustive de toutes les combinaisons d’hyperparamètres.
 - Random Search : Exploration aléatoire des hyperparamètres, plus rapide que Grid Search.
 - Bayesian Optimization : Utilisation de modèles probabilistes pour affiner la recherche des meilleurs paramètres.
+# Etude Comparative 
+- Les heuristiques sont des méthodes d'approximation rapide permettant d'obtenir une solution acceptable sans garantir une solution optimale. Elles sont adaptées aux problèmes complexes nécessitant une réponse rapide, comme la recherche d’itinéraires (exemple : Google Maps). Leur principal avantage est leur flexibilité, mais elles peuvent produire des solutions sous-optimales.
+
+- L’optimisation classique, quant à elle, suit une approche plus systématique en ajustant précisément les paramètres du modèle. Elle est couramment utilisée pour des tâches comme le réglage des hyperparamètres. Cette approche est méthodique et rigoureuse, assurant une bonne robustesse, mais elle peut être coûteuse en temps de calcul, notamment lorsqu’il faut explorer un large espace de solutions.
+
+- Enfin, le machine learning adopte un apprentissage adaptatif, où le modèle ajuste ses paramètres en fonction des données. Cette approche est particulièrement efficace pour des tâches comme la régression et la classification, où la capacité du modèle à généraliser et à s’adapter est cruciale. Toutefois, elle exige un temps de calcul élevé et présente un risque de surapprentissage si le modèle est trop complexe ou mal régularisé.
+
+- En résumé, les heuristiques sont rapides mais parfois approximatives, l’optimisation classique est méthodique mais coûteuse en calcul, et le machine learning est puissant mais nécessite une gestion fine des risques de surajustement.
+  
+# Explication de la notion d’Hyperparamètres en Machine Learning
+Les hyperparamètres sont des paramètres qu’on définit avant l'entraînement d'un modèle d'apprentissage automatique et qui influencent directement la performance et la généralisation du modèle. Contrairement aux paramètres (qui sont appris par le modèle pendant l'entraînement, comme les poids d’un réseau de neurones), les hyperparamètres doivent être définis manuellement et ajustés via une recherche expérimentale.
+# Différence entre Paramètres et Hyperparamètres
+- Un paramètre est une valeur interne à un modèle de machine learning, ajustée automatiquement pendant l'entraînement. Par exemple, dans une régression linéaire, les coefficients de la droite sont des paramètres, car ils sont appris à partir des données pour minimiser l'erreur du modèle.
+
+- Un hyperparamètre, en revanche, est une valeur définie avant l'entraînement, qui contrôle le fonctionnement du modèle mais n'est pas ajustée directement à partir des données. Par exemple, le taux d’apprentissage (learning rate) dans un réseau de neurones ou le nombre d’arbres dans une forêt aléatoire sont des hyperparamètres, car ils doivent être définis par l'expérimentateur et peuvent influencer la performance du modèle.
+
+- En résumé, les paramètres sont appris automatiquement par le modèle, tandis que les hyperparamètres sont définis manuellement et optimisés par des techniques comme Grid Search ou Random Search.
+# Techniques d’Optimisation des Hyperparamètres
+Ajuster les hyperparamètres manuellement est inefficace. Voici les principales méthodes :
+## Grid Search (Recherche exhaustive)
+- Principe : Tester toutes les combinaisons possibles d’hyperparamètres.
+- Avantage : Trouve la meilleure combinaison.
+- Inconvénient : Coût computationnel élevé.
+## Random Search (Recherche aléatoire)
+- Principe : Tester un sous-ensemble d’hyperparamètres choisis aléatoirement.
+-  Avantage : Plus rapide que Grid Search.
+- Inconvénient : Peut manquer la meilleure combinaison.
+## Bayesian Optimization
+- Principe : Utilise des modèles probabilistes pour prédire les meilleurs hyperparamètres à tester.
+- Avantage : Plus efficace que Random Search et Grid Search.
+- Inconvénient : Plus complexe à implémenter.
+# Impact des Hyperparamètres sur la Performance
+L’optimisation des hyperparamètres permet de :
+-  Améliorer la précision (éviter l’overfitting et l’underfitting).
+- Réduire le temps de calcul (éviter des modèles trop complexes).
+- Rendre le modèle plus robuste (meilleure généralisation).
 # Optimisation des modèles :
 - Gradient Descent et variantes (SGD, Adam) : Techniques d’apprentissage permettant d’optimiser les paramètres d’un modèle de deep learning.
 - Réduction de complexité : Pruning des réseaux neuronaux, réduction du nombre de paramètres.
