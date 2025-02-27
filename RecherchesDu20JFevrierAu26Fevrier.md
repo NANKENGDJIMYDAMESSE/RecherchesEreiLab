@@ -76,3 +76,9 @@ Courbes d’apprentissage : Montrer l’évolution de la perte et de la précisi
 Diagrammes de distribution : Visualiser l’impact de la régularisation sur la distribution des poids et des biais dans un réseau neuronal.
 
 Graphiques comparatifs : Comparer les performances obtenues avec différentes techniques d’optimisation sur un même jeu de données.
+
+# Recommandations
+
+- Mieux structurer sous forme de power point
+- Presenter totutes les 2 dernieres recherches.
+- 
