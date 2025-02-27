@@ -1,3 +1,28 @@
+# Learning rate (taux d'apprentissage) :
+
+- C'est un paramètre essentiel dans l'entraînement des modèles d'apprentissage automatique, en particulier les réseaux de neurones et les algorithmes de descente de gradient.
+- Il détermine la taille des pas que le modèle fait pour ajuster ses poids lors de l'apprentissage.
+- Un taux d'apprentissage élevé peut entraîner une convergence rapide, mais risque de dépasser l'optimum.
+- Un taux d'apprentissage faible peut conduire à une convergence lente, mais peut aider à trouver un optimum plus précis.
+# Régularisation (L1/L2) :
+
+- Ce sont des techniques utilisées pour éviter le surapprentissage dans les modèles d'apprentissage automatique.
+- La régularisation L1 (Lasso) ajoute la valeur absolue des poids à la fonction de coût, ce qui peut entraîner une sélection de caractéristiques en mettant certains poids à zéro.
+- La régularisation L2 (Ridge) ajoute le carré des poids à la fonction de coût, ce qui pénalise les grands poids et les réduit, mais ne les met généralement pas à zéro.
+- Ces techniques aident à simplifier le modèle et à améliorer sa capacité de généralisation.
+# Profondeur du modèle :
+
+- Ce paramètre est particulièrement pertinent pour les modèles basés sur des arbres de décision, tels que les forêts aléatoires et les arbres de décision boostés.
+- Il détermine le nombre de niveaux ou de nœuds dans l'arbre.
+- Une profondeur élevée permet au modèle de capturer des relations complexes, mais peut conduire au surapprentissage.
+- Une profondeur faible limite la complexité du modèle, mais peut entraîner un sous-apprentissage.
+- Nombre d'arbres (Random Forest, Gradient Boosting) :
+
+Ces algorithmes sont des méthodes d'ensemble qui combinent plusieurs arbres de décision pour améliorer la performance.
+Le nombre d'arbres détermine la taille de l'ensemble.
+Un nombre élevé d'arbres peut améliorer la robustesse et la précision du modèle, mais augmente également le temps de calcul.
+Il existe un point de rendement décroissant où ajouter plus d'arbres n'améliore pas significativement la performance.
+
 # 1. Analyser l’impact des hyperparamètres dans différentes applications
 
 L’optimisation des hyperparamètres joue un rôle crucial dans l’amélioration des performances des modèles d’apprentissage automatique. Toutefois, leur impact peut varier selon le type d’application. Cette analyse pourrait inclure :
