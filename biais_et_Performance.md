@@ -14,3 +14,23 @@ L’apprentissage automatique est aujourd’hui omniprésent dans divers domaine
 - Leviers d’optimisation : exploration des techniques d’atténuation des biais et d’amélioration des performances (ex. : rééchantillonnage des données, ajustement des fonctions de coût, régularisation, fairness-aware learning).
 
 
+# Axe 1 : Revue de la littérature sur les biais en apprentissage automatique
+
+L’analyse des biais dans les modèles d’intelligence artificielle est un sujet d’étude crucial (Barocas et al., 2016 ; Mehrabi et al., 2021). Cette revue de la littérature abordera les types de biais les plus courants, notamment :
+
+- Biais de sélection : Il se produit lorsque les données d’entraînement ne sont pas représentatives de la population cible (Heckman, 1979). Exemples : sous-représentation de certaines classes, échantillons déséquilibrés.
+
+- Biais algorithmique : Introduit par la manière dont les algorithmes apprennent et généralisent les données (Feldman et al., 2015). Certains algorithmes amplifient les inégalités présentes dans les données d’entrée.
+
+- Biais de confirmation : Les modèles peuvent refléter des biais humains existants si les données sont annotées de manière subjective (Nickerson, 1998).
+
+- Biais d’échantillonnage : Une mauvaise sélection des données peut fausser l’entraînement et la prédiction (Kruskal & Mosteller, 1979).**
+L’analyse des biais dans les modèles d’intelligence artificielle est un sujet d’étude crucial. Cette revue de la littérature abordera les types de biais les plus courants, notamment :
+
+- Biais de sélection : Il se produit lorsque les données d’entraînement ne sont pas représentatives de la population cible. Exemples : sous-représentation de certaines classes, échantillons déséquilibrés.
+
+- Biais algorithmique : Introduit par la manière dont les algorithmes apprennent et généralisent les données. Certains algorithmes amplifient les inégalités présentes dans les données d’entrée.
+
+- Biais de confirmation : Les modèles peuvent refléter des biais humains existants si les données sont annotées de manière subjective.
+
+- Biais d’échantillonnage : Une mauvaise sélection des données peut fausser l’entraînement et la prédiction.
