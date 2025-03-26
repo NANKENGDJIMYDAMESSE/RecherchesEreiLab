@@ -41,6 +41,84 @@ Formules associées aux biais et interprétation
 
 ![image](https://github.com/user-attachments/assets/cefca734-c0b9-4e84-a3f8-7deba831b878)
 
+Commentaire : Cette formule représente la différence entre la valeur attendue d’un estimateur  et la vraie valeur du paramètre . 
+Un modèle biaisé a une différence significative entre l’estimation et la réalité.
+
+
+## Erreur quadratique moyenne (MSE) - (James et al., 2013) :
+![image](https://github.com/user-attachments/assets/6b8df403-09b4-4e4b-ba81-12261a3afaa0)
+Commentaire : Cette mesure permet d’évaluer si un modèle de classification favorise ou défavorise un groupe particulier. 
+Une valeur inférieure à 0.8 indique une discrimination potentielle.
+
+## Formule des performances de classification et biais (Fawcett, 2006) :
+
+![image](https://github.com/user-attachments/assets/d1306bae-6fef-4d0b-afa0-6d4eb36b1c61)
+Commentaire : Cette mesure compare la performance du modèle en fonction des vrais positifs (TP), faux négatifs (FN), vrais négatifs (TN) et faux positifs (FP). 
+Un déséquilibre dans ces valeurs peut indiquer un biais en faveur ou en défaveur d’une classe spécifique.
+
+# Axe 2 : Identification et analyse des biais dans les jeux de données et les modèles d’apprentissage
+
+## Cette partie se concentre sur la méthodologie d’identification des biais et l’évaluation de leur impact sur les modèles d’apprentissage supervisé et non supervisé.
+
+## Méthodes d’identification des biais
+
+- Analyse exploratoire des données (EDA) : Identification des déséquilibres dans la distribution des classes et des variables sensibles.
+
+- Tests statistiques : Mesure de la représentativité des données (Kolmogorov-Smirnov, tests de normalité, etc.).
+
+- Métriques d’équité : Analyse de la parité démographique, taux de faux positifs et faux négatifs différenciés.
+
+- Interprétabilité des modèles : Utilisation de SHAP, LIME et autres outils pour comprendre comment un modèle prend ses décisions.
+
+# Axe 3 : Corrélation entre biais et performance des modèles
+
+## L’objectif de cette section est de quantifier l’effet des biais sur la précision et la généralisation des modèles.
+
+## Approches expérimentales
+
+- Évaluation comparative des performances des modèles avec et sans correction des biais.
+
+- Étude de la robustesse des modèles en testant sur des données en distribution décalée.
+
+- Analyse de la variabilité des prédictions sur des groupes démographiques différents.
+
+## Méthodologie de mesure
+
+- Courbes ROC et AUC pour comparer les modèles avant et après correction des biais.
+
+- Écart de performance entre différents sous-groupes (Gender Bias, Ethnic Bias, etc.).
+
+- Analyse des erreurs pour identifier les groupes les plus affectés par les biais.
+
+# Axe 4 : Leviers d’optimisation et stratégies d’atténuation des biais
+
+## Techniques d’atténuation des biais
+
+- Rééchantillonnage des données : Techniques de suréchantillonnage ou sous-échantillonnage pour équilibrer les classes.
+
+- Ajustement des fonctions de coût : Attribution de poids aux classes minoritaires pour réduire l’impact des biais.
+
+- Régularisation des modèles : Pénalisation des modèles favorisant certaines classes.
+
+- Fairness-aware Learning : Algorithmes d’apprentissage intégrant des contraintes d’équité.
+
+- Calibration des modèles : Ajustement des probabilités de prédiction pour aligner les décisions sur des critères d’équité.
+
+# Conclusion et perspectives
+
+Cette étude vise à établir un lien quantifiable entre les biais et la performance des modèles tout en explorant des solutions d’optimisation viables. À travers des expérimentations et des analyses rigoureuses, la thèse proposera des recommandations pour concevoir des modèles à la fois performants et équitables. Les futures recherches pourront s’orienter vers l’étude des biais dans les modèles génératifs et le développement d’algorithmes auto-adaptatifs capables de détecter et corriger leurs propres biais.
+
+## Références
+
+- Casella, G., & Berger, R. L. (2002). Statistical Inference. Duxbury Press.
+
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning. Springer.
+
+- Dwork, C., Hardt, M., Pitassi, T., Reingold, O., & Zemel, R. (2012). Fairness Through Awareness. ACM.
+
+- Fawcett, T. (2006). An Introduction to ROC Analysis. Pattern Recognition Letters.
+
+
 
 
 
