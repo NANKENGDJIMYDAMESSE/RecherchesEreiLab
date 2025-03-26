@@ -53,8 +53,10 @@ Une valeur inférieure à 0.8 indique une discrimination potentielle.
 ## Formule des performances de classification et biais (Fawcett, 2006) :
 
 ![image](https://github.com/user-attachments/assets/d1306bae-6fef-4d0b-afa0-6d4eb36b1c61)
+
 Commentaire : Cette mesure compare la performance du modèle en fonction des vrais positifs (TP), faux négatifs (FN), vrais négatifs (TN) et faux positifs (FP). 
 Un déséquilibre dans ces valeurs peut indiquer un biais en faveur ou en défaveur d’une classe spécifique.
+
 
 # Axe 2 : Identification et analyse des biais dans les jeux de données et les modèles d’apprentissage
 
