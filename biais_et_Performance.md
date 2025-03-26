@@ -34,3 +34,47 @@ L’analyse des biais dans les modèles d’intelligence artificielle est un suj
 - Biais de confirmation : Les modèles peuvent refléter des biais humains existants si les données sont annotées de manière subjective.
 
 - Biais d’échantillonnage : Une mauvaise sélection des données peut fausser l’entraînement et la prédiction.
+
+Formules associées aux biais et interprétation
+
+## Biais d'estimation (Casella & Berger, 2002) :
+
+![image](https://github.com/user-attachments/assets/cefca734-c0b9-4e84-a3f8-7deba831b878)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
