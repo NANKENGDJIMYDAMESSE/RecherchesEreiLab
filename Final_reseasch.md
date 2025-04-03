@@ -59,6 +59,89 @@ Applications IT for Green : L’utilisation des technologies numériques pour am
 
 - Voici un code Python illustrant un algorithme d'entraînement éco-responsable basé sur l'arrêt précoce (early stopping) et la sparsification d'un réseau de neurones. Cet algorithme réduit le coût énergétique en arrêtant l'entraînement lorsqu'aucune amélioration significative n'est détectée et en réduisant la complexité du modèle.
 
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torchvision import datasets, transforms
+from torch.utils.data import DataLoader
+
+# Définition du modèle de réseau neuronal sparsifié
+class SparseNN(nn.Module):
+    def __init__(self, input_size=784, hidden_size=128, output_size=10, sparsity=0.5):
+        super(SparseNN, self).__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(hidden_size, output_size)
+        self.sparsity = sparsity
+
+        # Appliquer la sparsification en mettant à zéro un pourcentage des poids
+        self.apply_sparsity()
+
+    def apply_sparsity(self):
+        with torch.no_grad():
+            for param in self.parameters():
+                mask = torch.rand_like(param) > self.sparsity
+                param.mul_(mask)  # Appliquer la masque de sparsification
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.relu(x)
+        x = self.fc2(x)
+        return x
+
+# Hyperparamètres
+batch_size = 64
+learning_rate = 0.01
+epochs = 50
+patience = 5  # Nombre d'époques avant l'arrêt précoce si aucune amélioration
+
+# Chargement des données MNIST
+transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
+train_data = datasets.MNIST(root="./data", train=True, transform=transform, download=True)
+train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
+
+# Initialisation du modèle, de la fonction de perte et de l'optimiseur
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = SparseNN().to(device)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+# Entraînement avec arrêt précoce
+best_loss = float("inf")
+epochs_no_improve = 0
+
+for epoch in range(epochs):
+    model.train()
+    running_loss = 0.0
+
+    for images, labels in train_loader:
+        images = images.view(images.size(0), -1).to(device)
+        labels = labels.to(device)
+
+        optimizer.zero_grad()
+        outputs = model(images)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+
+        running_loss += loss.item()
+
+    avg_loss = running_loss / len(train_loader)
+    print(f"Époque {epoch+1}/{epochs}, Perte Moyenne: {avg_loss:.4f}")
+
+    # Vérification de l'arrêt précoce
+    if avg_loss < best_loss:
+        best_loss = avg_loss
+        epochs_no_improve = 0  # Réinitialisation
+    else:
+        epochs_no_improve += 1
+        if epochs_no_improve >= patience:
+            print("Arrêt précoce déclenché, fin de l'entraînement.")
+            break
+
+print("Entraînement terminé.")
+
+
 
 
 
