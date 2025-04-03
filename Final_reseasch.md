@@ -43,6 +43,20 @@ Développement d’algorithmes éco-responsables : La conception d’algorithmes
 
 Applications IT for Green : L’utilisation des technologies numériques pour améliorer l’optimisation de la gestion des ressources naturelles (eau, énergie, transports) s’est révélée prometteuse (Kramers et al., 2014). Toutefois, l’intégration des technologies d’IA pour une gestion dynamique et prédictive de ces ressources pourrait permettre des gains supplémentaires en efficacité
 
+### 2.3 IA et Durabilité : Développement d’Algorithmes et de Modèles d’Apprentissage Automatique Éco-Responsables
+
+- L’intelligence artificielle est une technologie puissante, mais les modèles d’apprentissage automatique nécessitent une puissance de calcul significative, entraînant une consommation énergétique élevée. Strubell et al. (2019) ont mis en évidence que l’entraînement de grands modèles de deep learning peut générer des émissions de CO2 comparables à celles d’une voiture sur toute sa durée de vie. Plusieurs axes d’amélioration sont envisageables :
+
+- Optimisation des architectures de modèles : L’utilisation de modèles plus légers, comme les réseaux neuronaux sparsifiés ou quantifiés, permettrait de réduire leur empreinte énergétique tout en conservant des performances acceptables.
+
+- Réduction de la redondance dans l’entraînement : De nombreuses itérations d’entraînement sont effectuées avec des gains marginaux en précision. La mise en œuvre d’algorithmes adaptatifs, qui stoppent l’entraînement dès qu’un seuil optimal est atteint, pourrait limiter la consommation énergétique.
+
+- Développement d’algorithmes d’entraînement distribués : L’utilisation d’infrastructures décentralisées et d’apprentissage fédéré pourrait éviter les transferts de données énergivores et optimiser les capacités locales des appareils connectés.
+
+- Utilisation d’énergies renouvelables pour l’entraînement des modèles : Encourager l’entraînement des modèles sur des serveurs alimentés par des énergies vertes permettrait de réduire l’empreinte carbone globale.
+
+- Matériel informatique plus efficient : L’adoption de processeurs spécialisés comme les TPU (Tensor Processing Units) et les architectures neuromorphiques pourrait améliorer significativement l’efficacité énergétique des calculs en IA.
+
 # Chapitre 3 : Méthodologie
 
 ## 3.1 Collecte des Données
