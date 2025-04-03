@@ -35,13 +35,13 @@ IA et durabilité : Développement d’algorithmes et de modèles d’apprentiss
 
 Les recherches antérieures sur la réduction de l’impact environnemental du numérique ont exploré plusieurs approches :
 
-Optimisation énergétique des centres de données : Les stratégies de virtualisation et d’optimisation de l’allocation des ressources informatiques permettent de réduire la consommation énergétique (Beloglazov et al., 2012).
+Optimisation énergétique des centres de données : L’usage de la virtualisation et de l’optimisation de l’allocation des ressources informatiques a permis de réduire la consommation énergétique en minimisant l’utilisation de serveurs physiques inutiles (Beloglazov et al., 2012). Cependant, une meilleure gestion de l’orchestration des charges de travail dans les environnements cloud pourrait encore améliorer ces performances.
 
-Méthodes de refroidissement écologique : L’utilisation du free cooling et des systèmes de refroidissement à eau est une alternative pour limiter l’empreinte énergétique des data centers (Raman et al., 2014).
+Méthodes de refroidissement écologique : L’adoption du free cooling (utilisation de l’air extérieur pour refroidir les serveurs) et des systèmes de refroidissement à eau a permis de limiter l’empreinte énergétique des data centers (Raman et al., 2014). Toutefois, l’intégration de nouvelles technologies comme les circuits de refroidissement liquide à immersion complète pourrait offrir des solutions plus performantes.
 
-Développement d’algorithmes éco-responsables : La conception d’algorithmes optimisés pour une exécution sobre en énergie devient un enjeu clé de la recherche en IA (Schwartz et al., 2020).
+Développement d’algorithmes éco-responsables : La conception d’algorithmes optimisés pour réduire la consommation énergétique est un enjeu clé dans l’apprentissage automatique (Schwartz et al., 2020). Néanmoins, l’exploration de nouvelles architectures plus sobres en énergie et la réduction du coût d’entraînement des modèles d’IA restent des défis à relever.
 
-Applications IT for Green : Utilisation des technologies numériques pour l’optimisation de la gestion des ressources naturelles (eau, énergie, transports) (Kramers et al., 2014).
+Applications IT for Green : L’utilisation des technologies numériques pour améliorer l’optimisation de la gestion des ressources naturelles (eau, énergie, transports) s’est révélée prometteuse (Kramers et al., 2014). Toutefois, l’intégration des technologies d’IA pour une gestion dynamique et prédictive de ces ressources pourrait permettre des gains supplémentaires en efficacité
 
 # Chapitre 3 : Méthodologie
 
