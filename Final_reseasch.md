@@ -57,6 +57,27 @@ Applications IT for Green : L’utilisation des technologies numériques pour am
 
 - Matériel informatique plus efficient : L’adoption de processeurs spécialisés comme les TPU (Tensor Processing Units) et les architectures neuromorphiques pourrait améliorer significativement l’efficacité énergétique des calculs en IA.
 
+- Voici un code Python illustrant un algorithme d'entraînement éco-responsable basé sur l'arrêt précoce (early stopping) et la sparsification d'un réseau de neurones. Cet algorithme réduit le coût énergétique en arrêtant l'entraînement lorsqu'aucune amélioration significative n'est détectée et en réduisant la complexité du modèle.
+
+
+
+
+
+
+
+
+
+
+
+
+## Améliorations Apportées :
+
+- Sparsification des Poids : Réduit le nombre de paramètres actifs dans le réseau, diminuant ainsi le coût de calcul et la consommation énergétique.
+
+- Arrêt Précoce : Évite les itérations d'entraînement inutiles lorsque l'amélioration de la performance devient marginale.
+
+- Optimisation Adam : Utilisation d'un optimiseur avancé qui s'adapte au gradient pour accélérer la convergence et réduire le nombre d'itérations nécessaires.
+
 # Chapitre 3 : Méthodologie
 
 ## 3.1 Collecte des Données
