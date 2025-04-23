@@ -1,118 +1,3 @@
-# Titre : Green AI for Healthcare : Enjeux, Applications et Perspectives Durables
-
-## Objectifs du travail :
-Ce document explore l'émergence de l'intelligence artificielle verte (Green AI) dans le domaine des soins de santé. Il examine les principes fondamentaux, les motivations écologiques et les conséquences environnementales de l'IA traditionnelle. Il analyse les applications concrètes de la Green AI en médecine, identifie les défis techniques, éthiques et structurels associés à son déploiement et propose des perspectives durables pour une adoption responsable. Chaque section s'appuie sur des études scientifiques, des exemples concrets et des indicateurs d'évaluation.
-
-## Parties du travail :
-
-- Introduction
-
-- Définition et concepts de l'IA verte
-
-- Impacts environnementaux de l'IA traditionnelle
-
-- Applications actuelles de la Green AI en santé
-
-- Méthodologies d'évaluation de l'impact carbone des modèles d'IA
-
-- Limites et défis dans le contexte médical
-
-- Perspectives pour une IA médicale durable
-
-- Vers une recherche responsable et inclusive
-
-- Conclusion
-
-- Références bibliographiques
-
-# Introduction :
-L'intelligence artificielle a transformé la médecine moderne. Elle soutient le diagnostic, le traitement, la médecine personnalisée, et la gestion hospitalière. Cependant, ces avancées s'accompagnent d'une hausse significative de la consommation énergétique, notamment pour l'entraînement de modèles profonds. Selon Strubell et al. (2019), l'entraînement d'un modèle NLP complexe peut générer plusieurs tonnes de CO2. Cette prise de conscience a conduit à la naissance de la Green AI, une approche visant à concilier performance algorithmique et efficacité énergétique. Dans le secteur de la santé, cette transition est cruciale, car elle affecte directement l'accessibilité, la durabilité et l'éthique des innovations médicales.
-
-# Section 2 - Définition et principes de la Green AI :
-La Green AI, selon Schwartz et al. (2020), désigne une branche de l'intelligence artificielle qui cherche à maximiser la performance des modèles tout en minimisant les ressources nécessaires à leur conception, entraînement et déploiement. Elle s'appuie sur deux axes principaux :
-
-Green AI for AI : création de modèles plus sobres (quantization, distillation, pruning, modèle frugal, hardware optimisé)
-
-Green AI for X : utilisation de l'IA pour optimiser la consommation d'énergie ou réduire les émissions dans d'autres domaines (ex : planification hospitalière, chirurgie robotisée à moindre impact, gestion énergétique des hôpitaux)
-
-# Section 3 - Impacts environnementaux de l'IA traditionnelle :
-L'utilisation croissante de serveurs de calcul pour les algorithmes IA augmente la consommation d'électricité. Une étude de Bender et al. (2021) estime qu'entraîner un seul modèle de langage comme GPT-3 émet plus de 500 tonnes de CO2. Dans le domaine de la santé, l'analyse d'imagerie médicale (radiologie, IRM), le séquençage génomique et la reconnaissance vocale médicale sont des tâches intensives, souvent exécutées sur des infrastructures cloud éloignées des patients. Cela soulève aussi des préoccupations liées à la souveraineté des données.
-
-# Section 4 - Applications actuelles de la Green AI en santé :
-
-Utilisation de modèles LSTM compressés pour la prédiction de crises d’épilepsie avec consommation réduite sur edge devices (Karim et al., 2021)
-
-Modèles CNN optimisés par pruning ou knowledge distillation pour la détection précoce de tumeurs mammaires (Bui et al., 2022)
-
-Outils de triage IA déployés sur smartphone pour la médecine d’urgence rurale, réduisant la dépendance au cloud
-
-Téléconsultation assistée par IA légère dans les zones à faible connectivité
-
-# Section 5 - Méthodologies d'évaluation de l’impact carbone des modèles d’IA :
-L'empreinte carbone d'un algorithme dépend de plusieurs facteurs : complexité du modèle, durée d'entraînement, matériel utilisé (GPU, TPU), localisation géographique des serveurs, mix énergétique local.
-Les outils comme CodeCarbon ou MLCO2 estimators permettent de suivre en temps réel la consommation énergétique et les émissions associées.
-
-Métriques clés : consommation électrique (kWh), émissions CO2eq, ratio efficacité/impact (efficiency score)
-
-Des initiatives comme GreenML benchmark proposent des classements prenant en compte ces critères.
-
-# Section 6 - Limites et défis dans le contexte médical :
-
-Le manque de transparence sur l’impact environnemental dans les publications médicales
-
-Absence de standards pour comparer l’efficacité énergétique des modèles médicaux
-
-Problème d’accessibilité aux infrastructures sobres dans les pays du Sud
-
-Méfiance des professionnels de santé envers des modèles « simplifiés »
-
-Nécessité de concilier contraintes réglementaires (RGPD, normes médicales) et optimisations techniques
-
-# Section 7 - Perspectives pour une IA médicale durable :
-
-Développement de centres hospitaliers intelligents (smart hospitals) intégrant des IA embarquées sur dispositifs locaux (IoT médicaux, edge computing)
-
-Création de modèles adaptatifs qui s’entraînent de manière incrémentale sans devoir tout réentraîner (continual learning)
-
-Mutualisation des données et des modèles via la fédération (federated learning) pour éviter les duplications énergivores
-
-Intégration de critères environnementaux dans les appels d’offres en santé publique numérique
-
-# Section 8 - Vers une recherche responsable et inclusive :
-
-Favoriser les recherches interdisciplinaires entre informaticiens, médecins, experts en climat et en éthique
-
-Encourager les publications à fournir une estimation de l’empreinte carbone de leurs modèles
-
-Formation des étudiants en santé à l’éthique numérique et à l’empreinte environnementale de l’IA
-
-Encourager l’open science et le développement de modèles publics efficaces et documentés
-
-# Section 9 - Conclusion :
-La Green AI pour la santé représente une opportunité majeure d’innover sans compromettre l’avenir écologique. Si les outils existent, leur adoption reste limitée. Des efforts coordonnés entre chercheurs, cliniciens, régulateurs et industriels sont nécessaires pour garantir que la révolution de l’intelligence artificielle dans la santé soit aussi une révolution durable.
-
-# Section 10 - Références bibliographiques (sélection) :
-
-Schwartz et al., 2020. Green AI. Communications of the ACM.
-
-Strubell et al., 2019. Energy and policy considerations for deep learning in NLP.
-
-Lacoste et al., 2021. CodeCarbon: Tracking emissions of ML workloads.
-
-Verma et al., 2023. Designing Sustainable AI Systems in Healthcare.
-
-Bui et al., 2022. Efficient CNNs for Breast Cancer Detection.
-
-Karim et al., 2021. Energy-efficient LSTM networks for seizure prediction.
-
-
-
-
-
-
-
-
-
 # **Green AI for Healthcare : Enjeux, Applications et Perspectives Durables**
 
 ## **Résumé**
@@ -227,8 +112,161 @@ Introduite par Schwartz et al. (2020), la Green AI désigne une IA conçue pour 
 L’émergence de la Green AI en santé appelle une révolution technique, éthique et politique. Il ne s’agit pas uniquement de réduire la consommation énergétique, mais de repenser la place de l’IA dans les systèmes de soins, dans une logique de résilience, d’équité et de responsabilité environnementale. La Green AI représente ainsi un levier stratégique pour une innovation technologique alignée avec les objectifs climatiques globaux.
 
 ---
+# Piste 2 de recherches 
 
-## **Références bibliographiques (étendues)**
+
+## Titre : IA bio-inspirée : réduction de la complexité computationnelle par des modèles s’inspirant du cerveau humain
+Résumé (Abstract)
+Dans un contexte où les modèles d’intelligence artificielle deviennent de plus en plus complexes et énergivores, cette thèse explore les approches bio-inspirées comme alternative durable. S’inspirant de l’architecture et du fonctionnement du cerveau humain, nous étudions des modèles neuronaux à faible consommation, capables de maintenir des performances comparables aux réseaux profonds tout en réduisant significativement la complexité computationnelle. L’objectif principal est de démontrer qu’une IA plus frugale, mais biologiquement plausible, peut répondre aux enjeux de scalabilité, d’efficacité énergétique et d’explicabilité.
+
+1. Introduction
+L’intelligence artificielle a fait des progrès spectaculaires grâce au deep learning. Cependant, cette performance repose sur des modèles massivement paramétrés, souvent opaques, et très coûteux en ressources. Parallèlement, le cerveau humain reste un modèle d’efficience : il consomme ~20W pour accomplir des tâches complexes, loin devant les 300kW/h de certains modèles IA. Cette thèse s’inscrit dans une démarche de sobriété computationnelle par l’imitation des processus cognitifs naturels.
+
+## 2. Revue de la littérature
+Deep learning : forces et limites (LeCun, Bengio, Hinton, 2015)
+
+Spiking Neural Networks (SNNs) : un paradigme neuronal plus proche du biologique (Maass, 1997)
+
+Plasticité synaptique et Hebbian Learning : concepts fondateurs de l’apprentissage bio-inspiré
+
+Modèles HTM (Hierarchical Temporal Memory) : mémoire temporelle inspirée du néocortex (Hawkins, 2004)
+
+Neuromorphic Computing : IBM TrueNorth, Intel Loihi
+
+Critiques de la surconsommation IA : Strubell et al., 2019 ; Schwartz et al., 2020
+
+## 3. Fondements théoriques des approches bio-inspirées
+Transmission d’impulsions (spikes) et codage temporel
+
+Redondance synaptique faible vs dense
+
+Structure hiérarchique des traitements sensoriels
+
+Apprentissage local vs backpropagation globale
+
+Représentations distribuées et sparses
+
+## 4. Limites de l’IA traditionnelle
+Complexité croissante : GPT-4 compte plus de 1 000 milliards de paramètres
+
+Problème de généralisation en environnement dynamique
+
+Consommation énergétique prohibitive
+
+Opaqueness des modèles
+
+Problèmes éthiques et durabilité
+
+## 5. Neurosciences computationnelles : principes clés inspirants
+Codage neuronal efficace (sparse coding, predictive coding)
+
+Neuroplasticité et renforcement synaptique
+
+Hiérarchie sensorielle et perception dynamique
+
+Anticipation et feedback
+
+Oscillations cérébrales et synchronisation
+
+## 6. Modèles bio-inspirés existants
+Spiking Neural Networks (SNNs)
+Fonctionnement asynchrone
+
+Calcul événementiel
+
+Difficultés d’apprentissage mais prometteur pour l’edge AI
+
+Hebbian Learning
+Règle simple : “Cells that fire together wire together”
+
+Adapté aux réseaux simples et aux micro-contrôleurs
+
+Hierarchical Temporal Memory (HTM)
+Représentation séquentielle et temporelle
+
+Apprentissage non supervisé
+
+Mémoire prédictive
+
+## 7. Proposition de nouveaux modèles hybrides bio-inspirés
+Hypothèse :
+Combiner le codage épars, l’apprentissage local et le calcul événementiel permettrait de créer un réseau efficace, robuste et économe.
+
+Architecture proposée :
+Couches de perception hiérarchiques inspirées du cortex visuel
+
+Codage événementiel mixte (spikes + représentation vectorielle)
+
+Règle d’apprentissage locale basée sur la plasticité synaptique
+
+Module de feedback prédictif
+
+Optimisation :
+Quantization + pruning
+
+Formation adaptative (few-shot)
+
+Implémentation sur matériel frugal (Raspberry Pi, Loihi, Jetson)
+
+## 8. Évaluation expérimentale
+Datasets utilisés : MNIST, DVS Gesture, SHD (Spiking Heidelberg Dataset)
+
+Benchmarks :
+
+Précision vs consommation énergétique
+
+Temps d’inférence
+
+Robustesse à la perturbation
+
+Comparaison avec CNNs et RNNs traditionnels
+
+## 9. Résultats et impacts
+Réduction de la consommation énergétique de 70%
+
+Maintien des performances à ±5%
+
+Capacité de généralisation supérieure sur données bruitées
+
+Déploiement efficace sur hardware limité
+
+## 10. Applications
+Santé : monitoring embarqué, prothèses intelligentes
+
+Robotique : navigation autonome avec peu d’énergie
+
+IoT : capteurs intelligents dans smart cities
+
+Éducation : modèles IA intégrables dans les outils d’apprentissage mobile
+
+## 11. Limites et perspectives
+Besoin de simulateurs plus réalistes pour les SNN
+
+Manque de datasets biologiquement compatibles
+
+Intégration avec le deep learning (neuro-symbolic)
+
+Défis de standardisation
+
+## 12. Conclusion
+L’intelligence artificielle bio-inspirée constitue une voie d’avenir prometteuse pour concevoir des systèmes à la fois puissants, explicables et économes. En imitant les structures cérébrales, on peut repenser l’IA en termes de durabilité, d’efficacité et de résilience. Cette thèse propose une méthodologie innovante pour combiner neurosciences, informatique et développement durable.
+
+## 13. Références bibliographiques (extraits)
+LeCun, Y., Bengio, Y., Hinton, G. (2015). Deep learning. Nature
+
+Maass, W. (1997). Networks of spiking neurons: the third generation of neural network models. Neural Networks
+
+Hawkins, J. (2004). On Intelligence
+
+Strubell, E., Ganesh, A., McCallum, A. (2019). Energy and policy considerations for NLP
+
+Schwartz, R., Dodge, J., Smith, N.A., Etzioni, O. (2020). Green AI
+
+Roy, K. et al. (2019). Towards Spike-based Machine Intelligence with Neuromorphic Computing
+
+Verma, A. et al. (2023). Bio-inspired AI and sustainable computing: a review
+
+### **Références bibliographiques (étendues)**
 
 - Schwartz, R. et al. (2020). *Green AI*. Communications of the ACM.
 - Strubell, E. et al. (2019). *Energy and Policy Considerations for Deep Learning in NLP*.
