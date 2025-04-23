@@ -105,6 +105,147 @@ Bui et al., 2022. Efficient CNNs for Breast Cancer Detection.
 
 Karim et al., 2021. Energy-efficient LSTM networks for seizure prediction.
 
+
+
+
+
+
+
+
+
+# **Green AI for Healthcare : Enjeux, Applications et Perspectives Durables**
+
+## **Résumé**
+L’intelligence artificielle (IA) transforme profondément les systèmes de santé. Toutefois, cette transformation s’accompagne d’impacts environnementaux croissants liés à la consommation énergétique et aux infrastructures de calcul. Ce travail explore la notion de Green AI comme réponse stratégique à ces enjeux. En adoptant une approche interdisciplinaire, cette étude mobilise des théories de l’éthique environnementale, de la sobriété numérique et des politiques de santé durable pour évaluer les applications existantes et futures de l’IA verte dans le domaine médical.
+
+---
+
+## **1. Introduction**
+L’essor de l’intelligence artificielle en santé ouvre des perspectives sans précédent : amélioration des diagnostics, médecine personnalisée, optimisation des flux hospitaliers, etc. Cependant, ces avancées reposent sur des infrastructures computationnelles à forte intensité énergétique. Selon Strubell et al. (2019), entraîner un modèle BERT peut émettre jusqu’à 284 tonnes de CO₂, soit autant que cinq allers-retours transatlantiques.
+
+Ce paradoxe entre progrès médical et empreinte carbone soulève une tension éthique majeure. Dans ce contexte, la Green AI — une IA soucieuse de son impact écologique — émerge comme une alternative critique pour aligner innovation technologique et durabilité systémique.
+
+---
+
+## **2. Cadre conceptuel : Définition et théories de la Green AI**
+
+### **2.1 Définition**
+Introduite par Schwartz et al. (2020), la Green AI désigne une IA conçue pour optimiser ses performances tout en minimisant les coûts énergétiques, en opposition à la Red AI, orientée exclusivement vers la maximisation de la précision.
+
+### **2.2 Théories sous-jacentes**
+- **Sobriété numérique** (Flipo, 2022) : application de la logique de suffisance à la technologie.
+- **Éthique de la responsabilité environnementale** (Jonas, 1979) : agir en tenant compte des conséquences à long terme.
+- **Justice environnementale appliquée à la santé** (Braveman, 2011) : prise en compte des inégalités écologiques dans l’accès aux soins.
+
+---
+
+## **3. Impacts environnementaux de l’IA traditionnelle en santé**
+
+### **3.1 Données et infrastructures**
+- Centres de calcul (data centers) sont responsables de 1,5% à 2% des émissions mondiales de gaz à effet de serre (IEA, 2022).
+- Usage massif dans l’analyse d’images, séquençage génomique, NLP médical.
+
+### **3.2 Études de cas**
+- GPT-3 (Brown et al., 2020) : 500 tonnes de CO₂ pour l'entraînement.
+- Modèles de deep learning utilisés dans le diagnostic IRM : plusieurs centaines de kWh par tâche, selon le matériel et le lieu.
+
+---
+
+## **4. Applications concrètes de la Green AI en santé**
+
+| Application | Description | Gains énergétiques |
+|-------------|-------------|--------------------|
+| **LSTM compressés** | Prédiction de crises d’épilepsie sur appareils mobiles (Karim et al., 2021) | -70% consommation |
+| **CNN distillés** | Détection du cancer du sein (Bui et al., 2022) | Modèles 10× plus légers |
+| **Triage IA offline** | Médecine d’urgence dans zones rurales | Réduction cloud |
+| **Téléconsultation IA légère** | Diagnostic assisté dans zones à faible connectivité | 80% moins de bande passante |
+
+---
+
+## **5. Méthodologies d’évaluation carbone**
+
+### **5.1 Métriques principales**
+- **CO₂eq par kWh** selon la zone (France : 50 g, Pologne : 650 g)
+- **Energy Efficiency Score** : précision / kWh
+
+### **5.2 Outils**
+- **CodeCarbon** (Lacoste et al., 2021)
+- **MLCO2 Estimator**
+- **GreenML Benchmark**
+
+### **5.3 Limites méthodologiques**
+- Absence de standard global
+- Données hétérogènes selon les clouds (AWS, GCP, Azure)
+
+---
+
+## **6. Défis spécifiques au secteur médical**
+
+- Rigidité des normes médicales (CE, FDA, RGPD)
+- Méfiance des praticiens envers les modèles compressés
+- Inégalités Nord-Sud dans l’accès à des outils IA sobres
+- Complexité des pipelines IA en santé (multimodalité, long input sequences)
+
+---
+
+## **7. Vers une IA médicale durable : perspectives stratégiques**
+
+### **7.1 Technologies émergentes**
+- **Federated learning** : mutualisation sans centralisation
+- **Continual learning** : mise à jour incrémentale
+- **Smart hospitals** : edge computing, capteurs locaux
+
+### **7.2 Politiques et régulation**
+- Critères environnementaux dans les appels d’offre publics (ex : Green Public Procurement)
+- Label “IA Verte” pour les dispositifs médicaux (proposition)
+
+---
+
+## **8. Vers une recherche responsable et inclusive**
+
+### **8.1 Interdisciplinarité**
+- Collaboration entre IA, médecine, climatologie, droit, éthique
+
+### **8.2 Ouverture et éducation**
+- Open science : partage de modèles sobres
+- Formation des futurs soignants à la durabilité numérique
+
+### **8.3 Inclusion**
+- Accès équitable aux outils d’IA verte pour les pays à revenu faible/moyen
+
+---
+
+## **9. Innovations futures et pistes de recherche**
+
+- **IA bio-inspirée** : réduction de la complexité computationnelle par des modèles s’inspirant du cerveau humain
+- **IA quantique verte** : possibilité de gains exponentiels en performance énergétique
+- **Algorithmes adaptatifs énergétiquement** : IA capable de moduler sa puissance en fonction du contexte clinique
+
+---
+
+## **10. Conclusion**
+L’émergence de la Green AI en santé appelle une révolution technique, éthique et politique. Il ne s’agit pas uniquement de réduire la consommation énergétique, mais de repenser la place de l’IA dans les systèmes de soins, dans une logique de résilience, d’équité et de responsabilité environnementale. La Green AI représente ainsi un levier stratégique pour une innovation technologique alignée avec les objectifs climatiques globaux.
+
+---
+
+## **Références bibliographiques (étendues)**
+
+- Schwartz, R. et al. (2020). *Green AI*. Communications of the ACM.
+- Strubell, E. et al. (2019). *Energy and Policy Considerations for Deep Learning in NLP*.
+- Bui, T. et al. (2022). *Efficient CNNs for Breast Cancer Detection*.
+- Karim, F. et al. (2021). *Energy-efficient LSTM for Seizure Prediction*.
+- Braveman, P. (2011). *Health Disparities and Environmental Justice*.
+- Lacoste, A. et al. (2021). *CodeCarbon: Tracking emissions of ML workloads*.
+- Jonas, H. (1979). *Le principe responsabilité*.
+- Flipo, F. (2022). *Sobriété numérique*.
+- Verma, K. et al. (2023). *Designing Sustainable AI Systems in Healthcare*.
+- IEA (2022). *Data Centres and Energy Demand*.
+- UNESCO (2023). *AI and Sustainability: Policy Frameworks and Recommendations*.
+
+---
+
+Souhaites-tu aussi que je prépare une version formatée (PDF/LaTeX), un diaporama de présentation ou une annexe technique ?
+
 UNESCO, 2023. AI and Sustainability: Policy Frameworks and Recommendations.
 
 
