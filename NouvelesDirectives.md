@@ -244,8 +244,5 @@ L’émergence de la Green AI en santé appelle une révolution technique, éthi
 
 ---
 
-Souhaites-tu aussi que je prépare une version formatée (PDF/LaTeX), un diaporama de présentation ou une annexe technique ?
-
-UNESCO, 2023. AI and Sustainability: Policy Frameworks and Recommendations.
 
 
