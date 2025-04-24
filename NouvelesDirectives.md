@@ -249,7 +249,7 @@ Intégration avec le deep learning (neuro-symbolic)
 Défis de standardisation
 
 ## 12. Conclusion
-L’intelligence artificielle bio-inspirée constitue une voie d’avenir prometteuse pour concevoir des systèmes à la fois puissants, explicables et économes. En imitant les structures cérébrales, on peut repenser l’IA en termes de durabilité, d’efficacité et de résilience. Cette thèse propose une méthodologie innovante pour combiner neurosciences, informatique et développement durable.
+L’intelligence artificielle bio-inspirée constitue une voie d’avenir prometteuse pour concevoir des systèmes à la fois puissants, explicables et économes. En imitant les structures cérébrales, on peut repenser l’IA en termes de durabilité, d’efficacité et de résilience. Je propose don propose une méthodologie innovante pour combiner neurosciences, informatique et développement durable.
 
 ## 13. Références bibliographiques (extraits)
 LeCun, Y., Bengio, Y., Hinton, G. (2015). Deep learning. Nature
