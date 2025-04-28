@@ -302,3 +302,89 @@ Cette recherche montre que l’inspiration biologique fournit des pistes promett
 - Olshausen, B. A., & Field, D. J. (1996). Sparse Coding for Natural Images.
 
 - Nøkland, A. (2016). Direct Feedback Alignment.
+
+
+
+# Exemple de protocole expérimental détaillé presente a la partie 5.
+## Objectif: 
+- Évaluer l'efficacité énergétique et la précision d’un modèle SNN bio-inspiré comparé à un réseau conventionnel dense sur des tâches de classification.
+# Données utilisées
+- MNIST (images de chiffres manuscrits)
+
+- Fashion-MNIST (images de vêtements)
+
+- Optionnel : CIFAR-10 (images naturelles simples)
+# Architecture expérimentale
+![image](https://github.com/user-attachments/assets/9867924a-a616-48be-8c81-4e97a1d418d7)
+# Environnement technique
+![image](https://github.com/user-attachments/assets/7af461de-5bbd-4553-93c1-2b775395abee)
+
+# Mesures enregistrées
+- Précision (Accuracy)
+
+- Consommation énergétique par lot (en Joules ou kWh)
+
+- Temps d'inférence moyen (latence par échantillon)
+
+- Nombre moyen d'activations neuronales
+
+- Robustesse face au bruit (bruit sur input ou suppression aléatoire de neurones)
+
+# Procédure
+## Phase de Prétraitement
+- a) Encodage des images en spikes.
+- b) Normalisation éventuelle.
+
+## Phase d’Entraînement
+- a) Réseau classique avec Backpropagation.
+- b) Réseau bio-inspiré avec apprentissage STDP ou Hebbian local.
+
+## Phase de Test a) Passage des données test à travers les deux modèles.
+- b) Mesure du temps d'inférence.
+- c) Calcul de la consommation énergétique (via outils type NVIDIA SMI ou mesure CPU).
+
+## Analyse 
+- a) Comparaison des performances.
+- b) Analyse du compromis précision/énergie.
+# Validation statistique
+- 5 répétitions indépendantes (avec seed aléatoire différente).
+
+- Tests de significativité : t-test ou ANOVA pour comparer les métriques.
+# Visualisations possibles
+- Courbes précision vs énergie consommée.
+
+- Histogrammes d'activations neuronales.
+
+- Courbes de latence par modèle.
+
+- Évolution de la précision en fonction du bruit ajouté.
+
+# Résumé rapide :
+![image](https://github.com/user-attachments/assets/931568b8-5fd3-45b5-b35c-364b77482de6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
