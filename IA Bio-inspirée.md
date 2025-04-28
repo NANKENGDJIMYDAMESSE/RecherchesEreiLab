@@ -18,7 +18,7 @@ L'intelligence artificielle (IA) a atteint des performances remarquables dans de
 - 3.1. Neuroanatomie et dynamiques cérébrales pertinentes
 
 - 3.2. Principes computationnels clefs
-
+  
 # 4.Approches proposées
 
 - 4.1. Architectures neuromorphiques
@@ -159,10 +159,8 @@ Bi, G. Q., & Poo, M. M. (1998).
 
 # 3.2 Principes computationnels clefs
 
-Principe | Manifestation biologique | Application en IA
-Traitement événementiel | Spikes neuronaux | SNN, Loihi
-Codage parcimonieux | Activité neuronale éparse | Réseaux à sparsité imposée
-Plasticité locale | STDP, Hebbian Learning | Apprentissage local non supervisé
+![image](https://github.com/user-attachments/assets/5ad70cff-cb7c-48d7-b9d1-afaf3c372cc5)
+
 
 # 4. Approches proposées
 ## 4.1 Architectures neuromorphiques
