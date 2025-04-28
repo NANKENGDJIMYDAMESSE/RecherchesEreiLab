@@ -3,47 +3,45 @@
 L'intelligence artificielle (IA) a atteint des performances remarquables dans des domaines variés, mais son développement est souvent entravé par une complexité computationnelle élevée, nécessitant des ressources matérielles et énergétiques massives. À l’inverse, le cerveau humain accomplit des tâches cognitives complexes de manière extrêmement efficace en termes d'énergie et de calcul. Cette thèse explore comment l’inspiration des principes biologiques — tels que le traitement parcimonieux de l’information, l'architecture synaptique hiérarchique, l’apprentissage localisé et l’auto-organisation — peut permettre de réduire la complexité computationnelle des modèles d'IA. Nous proposons des architectures bio-inspirées, analysons leur efficacité, et démontrons leur potentiel sur des tâches classiques d'IA, tout en comparant leurs performances aux méthodes traditionnelles.
 
 ## Methodologie
-- Introduction
+# 1.Introduction
 
-- État de l'art
+# 2.État de l'art
 
-2.1. Complexité computationnelle dans l'IA
+- 2.1. Complexité computationnelle dans l'IA
 
-2.2. Fonctionnement bio-inspiré du cerveau humain
+- 2.2. Fonctionnement bio-inspiré du cerveau humain
 
-2.3. Modèles existants : neuromorphisme, réseaux spiking, etc.
+- 2.3. Modèles existants : neuromorphisme, réseaux spiking, etc.
 
-Fondements théoriques de la bio-inspiration
+# 3.Fondements théoriques de la bio-inspiration
 
-3.1. Neuroanatomie et dynamiques cérébrales pertinentes
+- 3.1. Neuroanatomie et dynamiques cérébrales pertinentes
 
-3.2. Principes computationnels clefs
+- 3.2. Principes computationnels clefs
 
-Approches proposées
+# 4.Approches proposées
 
-4.1. Architectures neuromorphiques
+- 4.1. Architectures neuromorphiques
 
-4.2. Traitement parcimonieux et codage épars
+- 4.2. Traitement parcimonieux et codage épars
 
-4.3. Apprentissage local et réduction de la rétropropagation
+- 4.3. Apprentissage local et réduction de la rétropropagation
 
-Méthodologie expérimentale
+# 5.Méthodologie expérimentale
 
-5.1. Conception et implémentation
+- 5.1. Conception et implémentation
 
-5.2. Protocole de test
+- 5.2. Protocole de test
 
-5.3. Métriques de comparaison
+- 5.3. Métriques de comparaison
 
-Résultats et discussions
+# 6. Résultats et discussions
 
-Limites et perspectives
+# 7.Limites et perspectives
 
-Conclusion
+# 8.Conclusion
 
-Bibliographie
-
-Annexes
+# Bibliographie
 
 # 1. Introduction
 L'intelligence artificielle (IA) moderne connaît une croissance exponentielle, portée par des modèles de plus en plus grands. Toutefois, cette complexification s'accompagne d'une explosion du coût computationnel et énergétique. En comparaison, le cerveau humain réalise des tâches d’une grande complexité cognitive avec une consommation énergétique très faible (≈ 20 W). Nous allons nous donner pour objectif propose d'explorer des stratégies de bio-inspiration, visant à réduire la complexité computationnelle des systèmes d'IA en imitant certains principes du cerveau humain. Nous analysons les dynamiques cérébrales, adaptons des architectures neuromorphiques, et concevons des méthodes d’apprentissage local inspirées de la plasticité synaptique.
@@ -52,23 +50,23 @@ L'intelligence artificielle (IA) moderne connaît une croissance exponentielle, 
 ## 2.1 Complexité computationnelle dans l'IA
 L’émergence de modèles massifs tels que GPT-3 (175 milliards de paramètres) [Brown et al., 2020] a conduit à des besoins computationnels extrêmes. Selon Kaplan et al. (2020), il existe une loi d'échelle reliant la performance des modèles à leur taille, mais au prix d'une consommation énergétique massive.
 
-Principaux problèmes identifiés :
+## Principaux problèmes identifiés :
 
-Consommation énergétique : Formation de GPT-3 ≈ 1.3 GWh [Patterson et al., 2021].
+- Consommation énergétique : Formation de GPT-3 ≈ 1.3 GWh [Patterson et al., 2021].
 
-Empreinte carbone : Jusqu’à 284 tonnes de CO₂ pour l'entraînement d'un modèle linguistique [Strubell et al., 2019].
+- Empreinte carbone : Jusqu’à 284 tonnes de CO₂ pour l'entraînement d'un modèle linguistique [Strubell et al., 2019].
 
-Accessibilité réduite : Seuls quelques grands groupes disposent des ressources nécessaires.
+- Accessibilité réduite : Seuls quelques grands groupes disposent des ressources nécessaires.
 
-Références :
+## Références :
 
-Brown, T. B., et al. (2020). Language Models are Few-Shot Learners.
+- Brown, T. B., et al. (2020). Language Models are Few-Shot Learners.
 
-Kaplan, J., et al. (2020). Scaling Laws for Neural Language Models.
+- Kaplan, J., et al. (2020). Scaling Laws for Neural Language Models.
 
-Strubell, E., et al. (2019). Energy and Policy Considerations for Deep Learning in NLP.
+- Strubell, E., et al. (2019). Energy and Policy Considerations for Deep Learning in NLP.
 
-Patterson, D., et al. (2021). Carbon Emissions and Large Neural Network Training.
+- Patterson, D., et al. (2021). Carbon Emissions and Large Neural Network Training.
 
 ## 2.2 Fonctionnement bio-inspiré du cerveau humain
 Le cerveau humain offre une alternative naturelle, combinant traitement massif et faible consommation énergétique.
