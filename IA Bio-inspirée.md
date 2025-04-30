@@ -364,9 +364,15 @@ Cette recherche montre que l’inspiration biologique fournit des pistes promett
 
 
 
+# POUR LA PROCHAINE FOIS 
 
-
-
+- LIENS ENTRE METHODES BIO INSPIRE ET LES METHODES POUR REDUIRE LA TAILLE
+- REVOIR LES LIENS VERS LE DATASET
+- CLARIFICATION SUR LA NOTION DE BIO INSPIRE ET CLARIFICATION SUR LES CAS D'UTILISATION
+- Methode QUantisation, Netwofk prening et voir si ca correspond avec la notion de Bio Inspirer et voir si il ya correlation entre ces methodes
+- Reprendre le tp sur les jeux de donnee avec un algorithme de CNN
+- Verifier si les modeles leger sont bio Inspires (MobileNet ,.......................)
+- Continuer a dater les presentations
 
 
 
