@@ -72,9 +72,17 @@ Pour qu’une méthode soit qualifiée de bio-inspirée, elle doit satisfaire au
 
 ### 4.1 Étude des mécanismes internes
 
-* **Network Pruning** : Élimine progressivement les connexions les moins significatives. Cela rappelle la synaptogenèse et l’élagage synaptique dans le cerveau humain, processus naturels où des connexions neuronales sont supprimées pour améliorer l’efficacité cognitive.
-* **Quantification** : Bien que purement mathématique, elle rejoint indirectement la notion d’optimisation de l’information sous contrainte énergétique, une propriété clé des systèmes biologiques.
-* **MobileNet** : Utilise des convolutions séparables en profondeur, inspirées de l’idée de spécialisation fonctionnelle dans le cortex visuel.
+* **Network Pruning** : Cette technique consiste à éliminer progressivement les connexions les moins significatives dans un réseau neuronal. Elle présente des analogies fortes avec l’élagage synaptique observé dans le cerveau humain, où des connexions neuronales sont supprimées pendant le développement pour améliorer l’efficacité cognitive. Le processus peut aussi rappeler des phénomènes d’auto-organisation neuronale. Toutefois, le pruning algorithmique est souvent guidé par des heuristiques déterministes, sans mécanisme d’adaptation continue ou de plasticité locale.
+
+* **Quantification** : Cette méthode réduit la précision des poids et des activations. Bien qu’elle ne soit pas explicitement bio-inspirée, elle évoque indirectement la codification parcimonieuse dans les neurones biologiques, où l’activité neuronale est rare et les signaux sont discrets. Cependant, elle ne reproduit pas les dynamiques temporelles des signaux biologiques.
+
+* **MobileNet** : Basé sur les convolutions séparables en profondeur, ce réseau repose sur la spécialisation fonctionnelle des couches. Cela peut s’apparenter à la spécialisation des zones corticales (visuelles, auditives, etc.). Mais contrairement au cerveau, l’architecture de MobileNet est fixée manuellement, sans mécanisme d’apprentissage structurel.
+
+* **Knowledge Distillation** : Cette méthode où un réseau « enseignant » transmet son savoir à un plus petit « étudiant » pourrait être rapprochée de l’apprentissage social ou du transfert d’informations entre agents biologiques. Toutefois, ce transfert est unidirectionnel et contrôlé, loin de la dynamique bilatérale d’un apprentissage humain.
+
+* **Binarisation** : Les réseaux binaires utilisent uniquement +1 ou -1 comme poids, ce qui évoque les potentiels d’action des neurones. Cela rejoint la dynamique « tout ou rien » du signal neuronal. Cette similitude rend cette méthode partiellement bio-inspirée, mais l'absence de temporalité et de plasticité affaiblit l’analogie.
+
+* **SqueezeNet & ShuffleNet** : Ces architectures exploitent des modules compressibles et des chemins de calcul allégés. Bien qu’optimisés pour la performance, leur inspiration biologique est indirecte. Elles exploitent des motifs architecturaux qui peuvent être comparés à la modularité cérébrale, mais sans fondement biologique explicite.
 
 ### 4.2 Analyse des convergences
 
