@@ -123,3 +123,6 @@ Il existe des recouvrements conceptuels entre les approches bio-inspirées et ce
 * McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. *Bulletin of Mathematical Biophysics*.
 * Dasgupta, D. (1999). *Artificial immune systems and their applications*. Springer.
 * Courbariaux, M., Bengio, Y., & David, J. P. (2016). BinaryNet: Training deep neural networks with weights and activations constrained to +1 or -1. *arXiv preprint arXiv:1602.02830*.
+
+
+
