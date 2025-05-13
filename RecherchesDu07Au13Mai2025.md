@@ -102,3 +102,69 @@ Les modèles hybrides permettent ainsi :
 - d’améliorer la performance prédictive
 - de réduire la dépendance à l'expertise humaine
 - de gagner en robustesse dans des environnements instables ou bruyants, comme celui d’une pandémie.
+
+
+# caracteriation de quelques Algorithmes
+
+## 1. Random Forest : Non bio-inspiré
+### Définition :
+Un Random Forest est un ensemble d'arbres de décision entraînés indépendamment sur des sous-échantillons aléatoires du jeu de données.
+
+### Pourquoi ce n’est pas bio-inspiré :
+Il n’est pas fondé sur un mécanisme biologique (comme la sélection naturelle, le fonctionnement du cerveau, le comportement de colonies, etc.).
+
+Il repose sur des méthodes statistiques classiques (bootstrap, moyenne) pour combiner des modèles faibles (arbres).
+
+Il n’utilise aucune heuristique évolutionnaire, neuronale ou comportementale animale.
+
+#  Modèle purement algorithmique, donc non bio-inspiré.
+
+### 2. Régression Linéaire + Algorithme Génétique (GA) : Partiellement bio-inspiré
+### Définition :
+Régression linéaire : modèle déterministe, simple et non bio-inspiré.
+
+GA (Genetic Algorithm) : algorithme évolutionnaire, inspiré de la sélection naturelle de Darwin :
+
+mutation,
+
+recombinaison,
+
+sélection.
+
+###  Pourquoi c’est partiellement bio-inspiré :
+Le modèle de base (Régression linéaire) n’est pas bio-inspiré.
+
+Mais l'optimisation des paramètres (ou des caractéristiques) est assurée par un algorithme bio-inspiré (GA).
+
+Ce genre de combinaison classique + bio-inspiré constitue un modèle hybride, mais à dominante classique, donc on dit partiellement bio-inspiré.
+
+### Exemple réel :
+
+"Feature Selection Using Genetic Algorithms for Regression Models in Medical Datasets" – Applied Soft Computing, 2020.
+
+# 3. MLP + GA : Modèle hybride (bio-inspiré + optimisation bio-inspirée)
+### Définition :
+MLP (Multilayer Perceptron) : réseau de neurones artificiels inspiré du cerveau humain, donc déjà bio-inspiré par nature.
+
+GA utilisé pour l’optimisation de :
+
+nombre de neurones,
+
+paramètres de régularisation (alpha),
+
+topologie du réseau.
+
+### Pourquoi c’est hybride bio-inspiré :
+Le modèle de base (MLP) est bio-inspiré.
+
+L’optimisation est aussi bio-inspirée via un algorithme évolutionnaire (GA).
+
+Il s’agit donc d’un modèle entièrement bio-inspiré, mais on le dit hybride car il combine deux types d’inspirations biologiques différentes :
+
+neuronal (réseaux),
+
+évolutionnaire (GA).
+
+### Exemple réel :
+
+"Hybrid Neuro-Genetic Models for Time Series Prediction" – Neurocomputing, 2021.
