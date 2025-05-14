@@ -168,3 +168,95 @@ neuronal (réseaux),
 ### Exemple réel :
 
 "Hybrid Neuro-Genetic Models for Time Series Prediction" – Neurocomputing, 2021.
+
+
+# L’algorithme génétique (AG) est une technique d’intelligence artificielle bio-inspirée qui simule le processus de sélection naturelle tel que proposé par Charles Darwin. Il est utilisé pour résoudre des problèmes d’optimisation complexes.
+
+# 1. Principe de base
+L’algorithme génétique repose sur l’idée que les meilleures solutions à un problème peuvent émerger par évolution, grâce à trois mécanismes biologiques fondamentaux :
+
+| Terme biologique          | Équivalent algorithmique              |
+| ------------------------- | ------------------------------------- |
+| ADN / Gènes               | Solution codée (individu)             |
+| Population                | Ensemble de solutions                 |
+| Fitness (adaptation)      | Score de performance                  |
+| Sélection naturelle       | Conservation des meilleures solutions |
+| Croisement (reproduction) | Combinaison d’individus parents       |
+| Mutation                  | Petite modification aléatoire         |
+
+# 2. Étapes principales d’un algorithme génétique
+Initialisation
+
+Générer une population initiale de solutions aléatoires.
+
+Chaque solution est un individu codé comme une liste de gènes (ex. vecteurs de 0/1, nombres, etc.).
+
+Évaluation (fitness)
+
+Mesurer la qualité de chaque solution grâce à une fonction objectif appelée fonction de fitness.
+
+Sélection
+
+Choisir les meilleurs individus (les plus “adaptés”) pour produire la prochaine génération.
+
+Techniques : sélection par tournoi, roulette, élitisme…
+
+Croisement (crossover)
+
+Combiner deux parents pour créer un ou plusieurs enfants en échangeant des parties de leurs gènes.
+
+Ex : croisement en un ou deux points.
+
+Mutation
+
+Modifier aléatoirement un ou plusieurs gènes pour introduire de la diversité.
+
+Remplacement
+
+Créer une nouvelle génération et recommencer le processus.
+
+Critère d’arrêt
+
+Le processus s’arrête après un certain nombre de générations ou lorsqu’une solution suffisamment bonne est trouvée.
+
+# Exemple simple : sélection de variables
+Objectif : sélectionner les meilleures colonnes dans un dataset pour améliorer une régression linéaire.
+
+Chaque individu : un vecteur binaire comme [1, 0, 1, 0, 1] (1 = variable sélectionnée).
+
+Fitness : erreur quadratique moyenne (MSE) du modèle entraîné sur ces colonnes.
+
+L’AG va explorer différentes combinaisons de variables pour trouver la meilleure.
+
+# Avantages des algorithmes génétiques
+Bio-inspirés et adaptatifs : peuvent s’adapter à de nombreux types de problèmes.
+
+Robustes : capables d’échapper à des minima locaux.
+
+Polyvalents : utilisables même si le problème n’est pas différentiable ou continu.
+
+# Inconvénients
+Coûteux en calcul : plusieurs générations, plusieurs individus, plusieurs entraînements.
+
+Paramétrage délicat : mutation, croisement, taille de population...
+
+Pas garanti d’optimalité : heuristique, donc pas toujours la meilleure solution exacte.
+
+# Cas d'utilisation
+Optimisation de modèles de machine learning (hyperparamètres, sélection de variables)
+
+Planification (itinéraires, production)
+
+Robotique (comportement, locomotion)
+
+Conception de réseaux de neurones (structure, poids initiaux)
+
+
+
+
+
+
+
+
+
+
