@@ -72,13 +72,7 @@ Exemple principal : Random Forest (ensemble d’arbres de décision, méthode al
 | Méthodologie scientifique    | À renforcer sur les aspects énergétiques                                  |
 | Perspectives                 | Article scientifique + prototype avec évaluation énergétique              |
 # VIII.  Travaux à réaliser
-- Mesurer l’empreinte carbone de chaque modèle sur un sous-ensemble de données COVID-19 (utiliser codecarbon).
 
-- Créer un tableau comparatif final avec RMSE, temps, énergie consommée, et CO₂ estimé.
-
-- Élaborer une fiche projet orientée publication (titre, résumé, plan, objectifs, innovation).
-
-- Envisager un cas applicatif IT for Green (ex. : prédiction optimisée du stress hospitalier).
 
 
 
