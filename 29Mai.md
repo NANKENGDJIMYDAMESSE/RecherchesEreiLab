@@ -62,18 +62,21 @@ Efficacité Énergétique (Energy Efficiency) : Performance du modèle par unit�
 
 
 
+# TP de Deep Learning : Détection de la Pneumonie sur le Dataset RSNA en évaluant l'Impact green AI 
+
+# 1. Introduction
+Ce TP vise à explorer les concepts fondamentaux du Deep Learning appliqués à un problème médical crucial : la détection de la pneumonie à partir d'images radiographiques thoraciques. Nous utiliserons le dataset RSNA Pneumonia Detection Challenge, un ensemble de données réelles. L'objectif n'est pas seulement de construire un modèle performant, mais aussi d'évaluer son efficacité en termes de ressources (temps, mémoire, énergie), et d'explorer des techniques d'optimisation (quantification et pruning) pour réduire son empreinte carbone, un aspect crucial de l'IA Verte (Green AI).
 
 
-
-
-
-
-
-
-
-
-
-
+# 2. Objectifs du TP
+- Comprendre le dataset RSNA Pneumonia Detection Challenge et ses spécificités.
+- Préparer et pré-traiter des données d'images médicales pour l'entraînement d'un réseau de neurones.
+- Implémenter et entraîner un modèle ResNet-50 pour une tâche de classification binaire (pneumonie/non-pneumonie).
+- Évaluer la performance du modèle à l'aide de métriques clés (AUC, F1-Score, Précision, Rappel).
+- Quantifier un modèle Deep Learning (Post-Training Quantization - PTQ) et évaluer son impact.
+- Appliquer le Network Pruning à un modèle et évaluer son impact.
+- Mesurer et analyser les métriques de Green AI (consommation énergétique, émissions de CO2 eq, temps d'inférence) pour les modèles optimisés et non optimisés.
+- Interpréter l'impact des techniques d'optimisation sur le compromis performance/efficacité énergétique.
 
 
 
