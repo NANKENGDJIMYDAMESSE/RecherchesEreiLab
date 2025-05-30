@@ -90,7 +90,11 @@ Une réduction significative de la taille du modèle et du temps d'inférence gr
 Une quantification de l'impact carbone des phases d'entraînement des modèles non optimisés et optimisés.
 Des conclusions claires sur l'efficacité des techniques d'optimisation pour construire des modèles de Deep Learning plus "verts" et plus économes en ressources.
 
-
+# Recommandations 
+- Rendre plus explicite les metriques
+- essayer d'avoir les donnees de la pneumonia
+- Faire marcher le network pruning
+- faire tourner l'ensemble des donnees et etablir un tableau comparatif.
 
 
 
