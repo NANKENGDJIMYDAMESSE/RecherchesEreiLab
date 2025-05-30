@@ -62,24 +62,33 @@ Efficacité Énergétique (Energy Efficiency) : Performance du modèle par unit�
 
 
 
-# TP de Deep Learning : Détection de la Pneumonie sur le Dataset RSNA en évaluant l'Impact green AI 
+# Projet de Deep Learning : Détection de Chiffres MNIST avec ResNet et Impact Green AI
+## 1. Introduction
+Ce projet de Deep Learning vise à explorer l'application d'une architecture de réseau neuronal complexe, ResNet-50, à un problème de classification plus simple : la reconnaissance de chiffres manuscrits du célèbre dataset MNIST. Au-delà de l'atteinte d'une performance de classification élevée, un objectif central de ce projet est d'évaluer l'empreinte environnementale des modèles de Deep Learning. Nous analyserons l'impact de l'entraînement et de l'inférence, en mesurant la consommation de ressources et les émissions de carbone, et en explorant l'efficacité de techniques d'optimisation comme la quantification et le pruning dans le cadre de l'IA Verte.
 
-# 1. Introduction
-Ce TP vise à explorer les concepts fondamentaux du Deep Learning appliqués à un problème médical crucial : la détection de la pneumonie à partir d'images radiographiques thoraciques. Nous utiliserons le dataset RSNA Pneumonia Detection Challenge, un ensemble de données réelles. L'objectif n'est pas seulement de construire un modèle performant, mais aussi d'évaluer son efficacité en termes de ressources (temps, mémoire, énergie), et d'explorer des techniques d'optimisation (quantification et pruning) pour réduire son empreinte carbone, un aspect crucial de l'IA Verte (Green AI).
+## 2. Contexte et Problématique
+L'explosion de l'IA a mis en lumière la puissance des modèles de Deep Learning, mais aussi leur coût énergétique. Des architectures comme ResNet, bien que très performantes sur des tâches complexes d'imagerie, demandent des ressources considérables. Comprendre le compromis entre performance et efficacité énergétique est crucial, surtout lorsqu'on adapte ces modèles à des tâches moins exigeantes. MNIST, avec ses images de petite taille et sa classification à 10 classes, offre un terrain de jeu idéal pour cette exploration.
 
+## 3. Objectifs du Projet
+Ce projet se décline en plusieurs objectifs clés, couvrant la modélisation, l'évaluation de performance et l'analyse de l'impact environnemental :
 
-# 2. Objectifs du TP
-- Comprendre le dataset RSNA Pneumonia Detection Challenge et ses spécificités.
-- Préparer et pré-traiter des données d'images médicales pour l'entraînement d'un réseau de neurones.
-- Implémenter et entraîner un modèle ResNet-50 pour une tâche de classification binaire (pneumonie/non-pneumonie).
-- Évaluer la performance du modèle à l'aide de métriques clés (AUC, F1-Score, Précision, Rappel).
-- Quantifier un modèle Deep Learning (Post-Training Quantization - PTQ) et évaluer son impact.
-- Appliquer le Network Pruning à un modèle et évaluer son impact.
-- Mesurer et analyser les métriques de Green AI (consommation énergétique, émissions de CO2 eq, temps d'inférence) pour les modèles optimisés et non optimisés.
-- Interpréter l'impact des techniques d'optimisation sur le compromis performance/efficacité énergétique.
+### 3.1 Objectifs Techniques
+Préparation des Données MNIST : Adapter les images MNIST (28x28, niveaux de gris) pour les rendre compatibles avec l'entrée de ResNet-50 (32x32, 3 canaux), en appliquant un padding et une duplication des canaux, suivis d'un pré-traitement spécifique à ResNet.
+Implémentation et Entraînement du Modèle ResNet-50 : Construire un modèle de classification à 10 classes en utilisant une architecture ResNet-50 pré-entraînée sur ImageNet, en gelant les couches de base et en entraînant une nouvelle tête de classification adaptée à MNIST.
+Évaluation de la Performance : Mesurer la précision (Accuracy) et le F1-Score du modèle sur l'ensemble de test, ainsi que la matrice de confusion et le rapport de classification.
+### 3.2 Objectifs d'Optimisation et d'IA Verte
+Quantification Post-Entraînement (PTQ) : Appliquer la quantification sur le modèle ResNet-50 entraîné pour réduire sa taille et potentiellement son temps d'inférence.
+Network Pruning : Mettre en œuvre le pruning (élagage) pour réduire la complexité du modèle en supprimant les connexions moins importantes, et ré-entraîner le modèle pruné.
+Mesure des Métriques de Green AI : Utiliser des outils comme codecarbon pour estimer la consommation d'énergie et les émissions de CO2 équivalent (CO2eq) pendant l'entraînement des modèles (non optimisé et pruné).
+Analyse Comparative : Comparer la taille des modèles, les temps d'inférence, la consommation énergétique et les émissions de CO2eq entre le modèle original et les modèles optimisés.
+Interprétation de l'Impact : Analyser le compromis entre la performance du modèle et son empreinte environnementale, en mettant en évidence l'efficacité des techniques d'optimisation pour une IA plus durable.
+# 4. Résultats Attendus
+À l'issue de ce projet, nous devrions être en mesure de démontrer :
 
-
-
+La capacité d'un modèle ResNet-50 à classer les chiffres MNIST avec une haute précision, même après adaptation de l'entrée.
+Une réduction significative de la taille du modèle et du temps d'inférence grâce à la quantification et au pruning.
+Une quantification de l'impact carbone des phases d'entraînement des modèles non optimisés et optimisés.
+Des conclusions claires sur l'efficacité des techniques d'optimisation pour construire des modèles de Deep Learning plus "verts" et plus économes en ressources.
 
 
 
