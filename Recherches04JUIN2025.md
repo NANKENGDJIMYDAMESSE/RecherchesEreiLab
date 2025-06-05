@@ -49,7 +49,18 @@ Les techniques d’optimisation permettent des modèles plus écologiques sans s
 Les résultats démontrent qu’il est possible d’optimiser des architectures lourdes comme ResNet-50 pour des tâches médicales tout en réduisant considérablement leur empreinte énergétique. Quantification et pruning sont complémentaires et ouvrent la voie à une IA verte plus responsable.
 
 
+# Points clés de la solution proposée :
 
+Acquisition des données de pneumonie : Intégration d'un script de téléchargement (ou d'instructions claires) pour le dataset RSNA Pneumonia Detection Challenge, car c'est la cause principale de votre FileNotFoundError.
+Dataset plus robuste : Utilisation de pydicom pour lire les fichiers .dcm natifs du dataset RSNA, ce qui est plus standard que de supposer des .png ou .jpg issus d'une conversion externe.
+Implémentation du Pruning : Ajout de la logique PyTorch pour l'élagage (pruning) du modèle entraîné.
+Métriques plus explicites : Ajout de fonctions d'évaluation claires pour calculer et afficher l'Accuracy, le F1-Score, le nombre de paramètres, le temps d'inférence, la taille du modèle, et des estimations de l'énergie/CO2eq.
+Tableau Comparatif : Génération d'un tableau comparatif Pandas affichant toutes les métriques pour les modèles Baseline, Quantifié et Pruné.
+Gestion de CodeCarbon : Utilisation de EmissionsTracker pour l'entraînement. Pour l'inférence, les valeurs d'énergie et de CO2eq seront des estimations ou des placeholders car une mesure précise en direct est complexe.
+Pré-requis pour faire fonctionner ce code (TRÈS IMPORTANT) :
+
+Accès à Kaggle : Le dataset RSNA Pneumonia Detection Challenge est sur Kaggle. Vous devrez installer la CLI de Kaggle et configurer vos identifiants.
+Espace Disque : Le dataset est volumineux (~15 Go).
 
 
 
