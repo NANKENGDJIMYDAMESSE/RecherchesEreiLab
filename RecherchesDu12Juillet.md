@@ -41,12 +41,23 @@ Exemple : Un projet de détection de maladies pulmonaires via IA peut être dév
 | Logique de recherche                          | Flexible          | Moins adaptée aux cas ultra personnalisés                                  |
 | Réduction de l’empreinte carbone              | Limité par défaut | Facilite par défaut (moins d’overfitting, précision mixte, early stopping) |
 ##  Conclusion
--  PyTorch reste la référence pour la recherche exploratoire, avec un contrôle total du code et de l’architecture. |
--  PyTorch Lightning se distingue pour les projets scalables, reproductibles, et respectueux de l’environnement. |
+-  PyTorch reste la référence pour la recherche exploratoire, avec un contrôle total du code et de l’architecture. 
+-  PyTorch Lightning se distingue pour les projets scalables, reproductibles, et respectueux de l’environnement. 
 
 En intégrant les principes de Green IT et d’IT for Green, PyTorch Lightning permet de construire des modèles plus écologiques, plus rapides, et mieux structurés — ce qui en fait un choix idéal pour les ingénieurs conscients des impacts climatiques de l’IA moderne.
 
+# Projet : Diagnostic de Pneumonie par IA Écologique avec ResNet et PyTorch Lightning
+- Ce projet vise à développer un système de diagnostic de pneumonie à partir de radiographies thoraciques (dataset RSNA Pneumonia) en utilisant une architecture ResNet-50. Notre objectif n'est pas seulement d'atteindre une haute précision, mais aussi d'évaluer et de réduire l'empreinte carbone du modèle.
 
+## Objectifs Clés
+- Préparation des Données RSNA : Adapter et augmenter le dataset RSNA Pneumonia pour l'entraînement d'un modèle de classification binaire.
+- Modélisation avec PyTorch Lightning : Implémenter et entraîner un ResNet-50 pré-entraîné, en utilisant la structure modulaire et reproductible de PyTorch Lightning pour la classification de la pneumonie.
+- Évaluation de Performance : Mesurer des métriques clés comme l'Accuracy, le F1-Score, la sensibilité, la spécificité et l'AUC-ROC pour valider la performance clinique du modèle.
+- Optimisation et IA Verte : Appliquer des techniques d'optimisation comme la quantification et le pruning pour réduire la taille et les temps d'inférence du modèle.
+- Mesure d'Impact Carbone : Utiliser CodeCarbon (intégré à PyTorch Lightning) pour quantifier la consommation énergétique et les émissions de CO2eq des phases d'entraînement.
+- Analyse Comparative : Comparer les performances, la taille du modèle et l'empreinte environnementale entre les modèles original et optimisés pour démontrer l'efficacité de l'IA Verte.
+## Résultats Attendus
+Nous prévoyons de démontrer qu'un ResNet-50 entraîné avec PyTorch Lightning peut diagnostiquer la pneumonie avec une grande efficacité. De plus, nous montrerons que l'optimisation (quantification, pruning) permet de réduire significativement la taille du modèle et l'impact carbone, prouvant qu'une IA performante peut aussi être plus durable.
 
 
 
